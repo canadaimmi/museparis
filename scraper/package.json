@@ -1,0 +1,15 @@
+{
+  "name": "muse-paris-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrapes AliExpress product listings and appends them to the Muse Paris product catalog.",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "@anthropic-ai/sdk": "^0.27.0",
+    "dotenv": "^16.4.5"
+  }
+}

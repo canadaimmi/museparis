@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muse Paris — Curated With Care</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-main">
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">☰</button>
+    <a href="index.html" class="nav-logo"><img src="webmuse/muse_paris_logo.png" alt="Muse Paris"></a>
+    <nav class="nav-links">
+      <div class="nav-item-shop" style="position:relative;">
+        <a href="collection.html">Shop</a>
+        <div class="shop-dropdown">
+          <div class="dropdown-col">
+            <h4>Ready-to-Wear</h4>
+            <a href="category.html?cat=new-in" class="amber-link">New in</a>
+            <a href="category.html?cat=best-sellers" class="amber-link">Best sellers</a>
+            <a href="category.html?cat=tops">Tops</a>
+            <a href="category.html?cat=dresses">Dresses</a>
+            <a href="category.html?cat=knitwear">Knitwear</a>
+            <a href="category.html?cat=jackets">Jackets &amp; Coats</a>
+            <a href="category.html?cat=pants">Pants</a>
+            <a href="category.html?cat=skirts">Skirts &amp; Shorts</a>
+            <a href="category.html?cat=denim">Denim</a>
+            <a href="category.html?cat=swimwear">Swimwear</a>
+          </div>
+          <div class="dropdown-col">
+            <h4>Accessories</h4>
+            <a href="category.html?cat=bags">Bags</a>
+            <a href="category.html?cat=shoes">Shoes</a>
+            <a href="category.html?cat=jewelry">Jewelry</a>
+            <a href="category.html?cat=accessories">View all</a>
+          </div>
+          <div class="dropdown-images">
+            <a href="category.html?cat=new-in" class="dropdown-img-card">
+              <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop')"></div>
+              <p class="label">New In</p>
+              <p class="sub">Fresh arrivals</p>
+            </a>
+            <a href="category.html?cat=accessories" class="dropdown-img-card">
+              <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=600&auto=format&fit=crop')"></div>
+              <p class="label">Accessories</p>
+              <p class="sub">Bags &amp; Jewellery</p>
+            </a>
+            <a href="about.html" class="dropdown-img-card">
+              <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=600&auto=format&fit=crop')"></div>
+              <p class="label">Home &amp; Lifestyle</p>
+              <p class="sub">Curated living</p>
+            </a>
+            <a href="contact.html" class="dropdown-img-card">
+              <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=600&auto=format&fit=crop')"></div>
+              <p class="label">Gift Ideas</p>
+              <p class="sub">For someone special</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="category.html?cat=new-in">New In</a>
+      <a href="collection.html">Archives</a>
+      <a href="category.html?cat=best-sellers">Best Sellers</a>
+      <a href="category.html?cat=last-chance">Last Chance</a>
+      <a href="about.html" class="about-link">About</a>
+    </nav>
+    <div class="nav-right">
+      <button class="nav-icon-btn" aria-label="Search">⚲</button>
+      <button class="nav-icon-btn" aria-label="Account">⚇</button>
+      <button class="nav-icon-btn" id="cartBtn" aria-label="Cart">⛃<span class="cart-dot" id="cartDot"></span></button>
+      <a href="contact.html" class="help-link">Help</a>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav-overlay" id="mobileNavOverlay">
+  <button class="mobile-nav-close" id="mobileNavClose">×</button>
+  <a href="collection.html">Shop</a>
+  <a href="category.html?cat=new-in">New In</a>
+  <a href="collection.html">Archives</a>
+  <a href="category.html?cat=best-sellers">Best Sellers</a>
+  <a href="category.html?cat=last-chance">Last Chance</a>
+  <a href="about.html">About</a>
+</div>
+
+<section class="hero">
+  <div class="hero-slide bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1600&auto=format&fit=crop')"></div>
+  <div class="hero-overlay"></div>
+  <button class="hero-arrow left" aria-label="Previous slide">‹</button>
+  <button class="hero-arrow right" aria-label="Next slide">›</button>
+  <div class="hero-content">
+    <h1>Curated With Care</h1>
+    <p class="hero-subtitle">The Summer Edit</p>
+    <a href="collection.html" class="btn btn-white">Discover</a>
+  </div>
+</section>
+
+<button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+
+<section class="category-grid">
+  <a href="category.html?cat=new-in" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">New In</span>
+  </a>
+  <a href="category.html?cat=bags" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Bags</span>
+  </a>
+  <a href="category.html?cat=tops" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Tops</span>
+  </a>
+  <a href="category.html?cat=shoes" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Shoes</span>
+  </a>
+  <a href="category.html?cat=dresses" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Dresses</span>
+  </a>
+  <a href="category.html?cat=knitwear" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Knitwear</span>
+  </a>
+  <a href="category.html?cat=skirts" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Skirts</span>
+  </a>
+  <a href="category.html?cat=jewelry" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Jewelry</span>
+  </a>
+  <a href="category.html?cat=pants" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Pants</span>
+  </a>
+  <a href="category.html?cat=jackets" class="category-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1551489186-cf8726f514f8?q=80&w=700&auto=format&fit=crop')"></div>
+    <span class="label">Jackets</span>
+  </a>
+</section>
+
+<section class="editorial-grid">
+  <a href="category.html?cat=new-in" class="editorial-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=900&auto=format&fit=crop')"></div>
+    <span class="label">New Arrivals</span>
+  </a>
+  <a href="category.html?cat=best-sellers" class="editorial-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=900&auto=format&fit=crop')"></div>
+    <span class="label">Best Sellers</span>
+  </a>
+  <a href="category.html?cat=accessories" class="editorial-cell">
+    <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=900&auto=format&fit=crop')"></div>
+    <span class="label">Gift Ideas</span>
+  </a>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Help</h4>
+      <a href="contact.html">Returns</a>
+      <a href="contact.html">Track Order</a>
+      <a href="contact.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Pinterest">📌</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>About Us</h4>
+      <a href="about.html">Our Story</a>
+      <a href="about.html">Sustainability</a>
+      <a href="about.html">Join Us</a>
+    </div>
+    <div class="footer-col newsletter-mini">
+      <h4>Receive Our Invitations</h4>
+      <form>
+        <input type="email" placeholder="Email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <p class="footer-bottom">© 2026 Muse Paris. All rights reserved.</p>
+</footer>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-sidebar" id="cartSidebar">
+  <div class="cart-header">
+    <h3>Your Bag</h3>
+    <button class="cart-close" id="cartClose">×</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-subtotal"><span>Subtotal</span><span id="cartSubtotal">$0.00</span></div>
+    <button class="btn-black" id="checkoutBtn">Checkout</button>
+  </div>
+</aside>
+
+<script src="js/main.js"></script>
+</body>
+</html>
