@@ -82,7 +82,41 @@ function appendProduct(product) {
 }
 
 async function scrapeProduct(page, url) {
+  // Enable request interception
+  await page.setRequestInterception(true);
+  
+  const rawInterceptedUrls = [];
+  
+  const requestListener = request => {
+    const requestUrl = request.url();
+    if ((requestUrl.includes('aliexpress-media.com') || requestUrl.includes('alicdn.com')) && 
+        (/\.(jpg|webp|jpeg|png|avif)$/i.test(requestUrl.split('?')[0]) || requestUrl.includes('.jpg') || requestUrl.includes('.webp'))) {
+      rawInterceptedUrls.push(requestUrl);
+    }
+    request.continue();
+  };
+
+  page.on('request', requestListener);
+
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+
+  // Scroll down slowly to trigger image loading and description loading
+  await page.evaluate(async () => {
+    await new Promise((resolve) => {
+      let totalHeight = 0;
+      const distance = 400;
+      const timer = setInterval(() => {
+        const scrollHeight = document.body.scrollHeight;
+        window.scrollBy(0, distance);
+        totalHeight += distance;
+        if (totalHeight >= scrollHeight || totalHeight > 4000) {
+          clearInterval(timer);
+          resolve();
+        }
+      }, 100);
+    });
+  });
+  await new Promise(r => setTimeout(r, 2000));
 
   const title = await page.$eval('h1', el => el.textContent.trim()).catch(() => 'Untitled Product');
 
@@ -92,12 +126,12 @@ async function scrapeProduct(page, url) {
   ).catch(() => '0');
   const price = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
 
-  const rawImages = await page.$$eval(
-    '[class*="images-view"] img, [class*="image-view"] img, [class*="slider--img"] img, .product-main-image img, [class*="magnifier-image"] img',
-    imgs => imgs.map(img => img.src).filter(src => src && src.startsWith('http'))
-  ).catch(() => []);
-
-  const images = Array.from(new Set(rawImages.map(cleanImageUrl))).filter(Boolean);
+  // Filter: Must contain '/kf/' and must NOT contain small dimension filenames (like 20x20.png, 624x160.png, etc.)
+  const images = Array.from(new Set(
+    rawInterceptedUrls
+      .filter(u => u.includes('/kf/') && !/\/\d+x\d+\.[a-z0-9]+$/i.test(u.split('?')[0]))
+      .map(cleanImageUrl)
+  )).filter(Boolean);
 
   const description = await page.$eval(
     '[class*="product-description"], [class*="detail-desc"]',
@@ -108,6 +142,10 @@ async function scrapeProduct(page, url) {
     '[class*="product-prop"] li, [class*="Specification--line"]',
     nodes => nodes.map(n => n.textContent.trim()).find(t => /fabric|material|composition/i.test(t)) || ''
   ).catch(() => '');
+
+  // Cleanup request interception to avoid leaks
+  page.off('request', requestListener);
+  await page.setRequestInterception(false).catch(() => {});
 
   return { title, price, images, description, materials };
 }
@@ -131,11 +169,12 @@ async function downloadProductImages(imageUrls, productId) {
   console.log(`Found ${imageUrls.length} full-resolution URLs for product ${productId}:`);
   imageUrls.forEach((url, i) => console.log(`  [${i + 1}] ${url}`));
 
+  let savedIndex = 1;
   for (let i = 0; i < imageUrls.length; i++) {
     const imageUrl = imageUrls[i];
-    const dest = path.join(IMAGES_DIR, `${productId}-${i + 1}.jpg`);
+    const dest = path.join(IMAGES_DIR, `${productId}-${savedIndex}.jpg`);
     try {
-      console.log(`Downloading ${imageUrl} -> ${productId}-${i + 1}.jpg`);
+      console.log(`Downloading ${imageUrl} -> ${productId}-${savedIndex}.jpg`);
       await new Promise((resolve, reject) => {
         const options = {
           headers: {
@@ -156,6 +195,15 @@ async function downloadProductImages(imageUrls, productId) {
           });
         }).on('error', reject);
       });
+
+      // Filter out small files (e.g. UI icons, stars, checkboxes < 5KB)
+      const stats = fs.statSync(dest);
+      if (stats.size < 5000) {
+        console.log(`  Deleting small/invalid image: ${dest} (${stats.size} bytes)`);
+        fs.unlinkSync(dest);
+      } else {
+        savedIndex++;
+      }
     } catch (err) {
       console.log(`✗ Failed to download image ${i + 1}: ${err.message}`);
     }
