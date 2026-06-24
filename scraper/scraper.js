@@ -34,6 +34,63 @@ const CATEGORY_KEYWORDS = [
   { category: 'swimwear', isClothing: true, words: ['swimwear', 'bikini', 'swimsuit'] },
 ];
 
+const frenchNames = [
+  "Elise", "Camille", "Céline", "Margot", "Colette", "Anaïs", "Vivienne", "Sylvie", "Odette", "Fleur", 
+  "Amélie", "Chloé", "Inès", "Manon", "Aurore", "Simone", "Juliette", "Capucine", "Mathilde", "Noémie", 
+  "Delphine", "Élodie", "Sandrine", "Pauline", "Céleste", "Adèle", "Marine", "Séraphine", "Rosalie", 
+  "Clémence", "Gabrielle", "Isabelle", "Lucille", "Madeleine", "Nicolette", "Ophélie", "Pascale", 
+  "Renée", "Solange", "Thérèse", "Valentine", "Violette", "Yvette", "Zoé", "Blanche", "Estelle", 
+  "Jacqueline", "Lisette", "Mirabelle", "Cosette"
+];
+
+function getItemType(product) {
+  const category = (product.category || '').toLowerCase();
+  const subCategory = (product.subCategory || '').toLowerCase();
+  const title = (product.name || '').toLowerCase();
+  
+  if (category === 'dresses') return 'Dress';
+  if (category === 'tops') return 'Top';
+  if (category === 'knitwear') return 'Knit';
+  if (category === 'bags') return 'Bag';
+  
+  if (category === 'bottoms') {
+    if (title.includes('pant') || title.includes('trouser') || title.includes('jean') || title.includes('legging') || subCategory.includes('pant') || subCategory.includes('trousers') || subCategory.includes('jeans')) return 'Pant';
+    if (title.includes('skirt') || subCategory.includes('skirt')) return 'Skirt';
+    if (title.includes('short') || subCategory.includes('shorts')) return 'Short';
+    return 'Bottom';
+  }
+  
+  if (category === 'outerwear' || category === 'jackets') {
+    if (title.includes('coat')) return 'Coat';
+    return 'Jacket';
+  }
+  
+  if (category === 'shoes') {
+    if (title.includes('heel')) return 'Heel';
+    if (title.includes('boot')) return 'Boot';
+    if (title.includes('sandal')) return 'Sandal';
+    if (title.includes('flat')) return 'Flat';
+    return 'Flat';
+  }
+  
+  if (category === 'jewelry' || category === 'jewellery') {
+    if (title.includes('earring')) return 'Earring';
+    if (title.includes('necklace')) return 'Necklace';
+    if (title.includes('ring')) return 'Ring';
+    if (title.includes('bracelet')) return 'Bracelet';
+    return 'Earring';
+  }
+  
+  if (category === 'accessories') {
+    if (title.includes('scarf')) return 'Scarf';
+    if (title.includes('belt')) return 'Belt';
+    if (title.includes('hat')) return 'Hat';
+    return 'Accessory';
+  }
+  
+  return 'Item';
+}
+
 function cleanImageUrl(url) {
   if (!url) return '';
   // Clean AliExpress image suffix like _50x50q70.jpg_.avif or _220x220.jpg etc.
@@ -231,6 +288,9 @@ async function run() {
       const id = slugify(scraped.title);
       const caption = await generateCaption(scraped.title, scraped.description);
 
+      const productsCount = readProducts().length;
+      const fName = frenchNames[productsCount % frenchNames.length];
+
       const product = {
         id,
         name: scraped.title,
@@ -251,6 +311,9 @@ async function run() {
         aliexpressUrl: url,
         tags: ['new']
       };
+
+      const type = getItemType(product);
+      product.displayName = `${fName} ${type}`;
 
       const localImages = await downloadProductImages(product.images, id);
       if (localImages && localImages.length > 0) {

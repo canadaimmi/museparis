@@ -10,7 +10,7 @@ const Cart = {
     } else {
       this.items.push({
         id: product.id,
-        name: product.name,
+        name: product.displayName || product.name,
         price: product.price,
         image: product.images[0],
         aliexpressUrl: product.aliexpressUrl,
@@ -275,14 +275,14 @@ function productCardHTML(p) {
       <div class="img-box bg-placeholder" style="background-image:url('${p.images[0]}')"></div>
       <div class="quick-panel">
         <div>
-          <p class="qp-name">${p.name}</p>
+          <p class="qp-name">${p.displayName || p.name}</p>
           <p class="qp-price">$${p.price.toFixed(2)}</p>
           <p class="qp-colours">Available in ${coloursHTML}</p>
           ${p.sizes?.length ? `<div class="qp-sizes">${sizesHTML}</div>` : ''}
         </div>
         <div class="qp-footer">Quick Shop 🛍</div>
       </div>
-      <p class="name-price">${p.name} — $${p.price.toFixed(2)}</p>
+      <p class="name-price">${p.displayName || p.name} — $${p.price.toFixed(2)}</p>
     </a>
   `;
 }
@@ -300,12 +300,12 @@ function initProductPage() {
     const product = products.find(p => p.id === id) || products[0];
     if (!product) return;
 
-    document.title = `${product.name} — Muse Paris`;
+    document.title = `${product.displayName || product.name} — Muse Paris`;
     document.getElementById('bcCategory').textContent = categoryLabel(product.category);
     document.getElementById('bcCategory').href = `category.html?cat=${product.category}`;
-    document.getElementById('bcProduct').textContent = product.name;
+    document.getElementById('bcProduct').textContent = product.displayName || product.name;
 
-    document.getElementById('pdName').textContent = product.name;
+    document.getElementById('pdName').textContent = product.displayName || product.name;
     document.getElementById('pdColour').textContent = product.colours[0];
     document.getElementById('pdPrice').textContent = `$${product.price.toFixed(2)}`;
 
