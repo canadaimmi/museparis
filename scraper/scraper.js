@@ -163,18 +163,20 @@ async function generateCaption(title, description) {
 }
 
 async function downloadProductImages(imageUrls, productId) {
-  if (!imageUrls || imageUrls.length === 0) return;
+  if (!imageUrls || imageUrls.length === 0) return [];
   if (!fs.existsSync(IMAGES_DIR)) fs.mkdirSync(IMAGES_DIR, { recursive: true });
 
   console.log(`Found ${imageUrls.length} full-resolution URLs for product ${productId}:`);
   imageUrls.forEach((url, i) => console.log(`  [${i + 1}] ${url}`));
 
+  const localPaths = [];
   let savedIndex = 1;
   for (let i = 0; i < imageUrls.length; i++) {
     const imageUrl = imageUrls[i];
-    const dest = path.join(IMAGES_DIR, `${productId}-${savedIndex}.jpg`);
+    const filename = `${productId}-${savedIndex}.jpg`;
+    const dest = path.join(IMAGES_DIR, filename);
     try {
-      console.log(`Downloading ${imageUrl} -> ${productId}-${savedIndex}.jpg`);
+      console.log(`Downloading ${imageUrl} -> ${filename}`);
       await new Promise((resolve, reject) => {
         const options = {
           headers: {
@@ -202,12 +204,14 @@ async function downloadProductImages(imageUrls, productId) {
         console.log(`  Deleting small/invalid image: ${dest} (${stats.size} bytes)`);
         fs.unlinkSync(dest);
       } else {
+        localPaths.push(`images/${filename}`);
         savedIndex++;
       }
     } catch (err) {
       console.log(`✗ Failed to download image ${i + 1}: ${err.message}`);
     }
   }
+  return localPaths;
 }
 
 async function run() {
@@ -248,8 +252,11 @@ async function run() {
         tags: ['new']
       };
 
+      const localImages = await downloadProductImages(product.images, id);
+      if (localImages && localImages.length > 0) {
+        product.images = localImages;
+      }
       appendProduct(product);
-      await downloadProductImages(product.images, id);
 
       console.log(`✓ ${product.name} → ${category}`);
     } catch (err) {

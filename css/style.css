@@ -493,7 +493,12 @@ img { display: block; max-width: 100%; }
 }
 
 .pd-main-image { position: relative; aspect-ratio: 3/4; overflow: hidden; }
-.pd-main-image .img-box { position: absolute; inset: 0; }
+.pd-main-image .img-box {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 .shop-look-btn {
   position: absolute; top: 16px; right: 16px;
   background: rgba(255,255,255,0.92);
@@ -502,7 +507,15 @@ img { display: block; max-width: 100%; }
 }
 
 .pd-thumbs { display: flex; flex-direction: column; gap: 10px; }
-.pd-thumb { aspect-ratio: 1/1; cursor: pointer; border: 1px solid transparent; }
+.pd-thumb {
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 .pd-thumb.active { border-color: var(--charcoal); }
 
 .pd-info { padding-top: 6px; position: relative; }

@@ -312,12 +312,12 @@ function initProductPage() {
     let currentImage = 0;
     function showImage(i) {
       currentImage = i;
-      document.getElementById('pdMainImage').style.backgroundImage = `url('${product.images[i]}')`;
+      document.getElementById('pdMainImage').src = product.images[i];
       document.querySelectorAll('.pd-thumb').forEach((t, idx) => t.classList.toggle('active', idx === i));
     }
 
     document.getElementById('pdThumbs').innerHTML = product.images.map((img, i) =>
-      `<div class="pd-thumb bg-placeholder ${i === 0 ? 'active' : ''}" style="background-image:url('${img}')" data-i="${i}"></div>`
+      `<img class="pd-thumb bg-placeholder ${i === 0 ? 'active' : ''}" src="${img}" data-i="${i}" alt="Thumbnail ${i + 1}">`
     ).join('');
     document.querySelectorAll('.pd-thumb').forEach(t => {
       t.addEventListener('click', () => showImage(+t.dataset.i));
@@ -338,7 +338,7 @@ function initProductPage() {
     document.getElementById('pdOrigin').textContent = product.origin;
     document.getElementById('pdCare').textContent = product.care;
 
-    document.getElementById('pdSwatchThumb').style.backgroundImage = `url('${product.images[0]}')`;
+    document.getElementById('pdSwatchThumb').src = product.images[0];
     document.getElementById('pdSwatchName').textContent = product.colours[0];
 
     // size guide tab only for clothing

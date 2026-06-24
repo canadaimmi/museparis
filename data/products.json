@@ -155,11 +155,13 @@
     "sizes": ["S", "M", "L", "XL"],
     "stock": { "S": 5, "M": 5, "L": 5, "XL": 5 },
     "images": [
-      "https://ae-pic-a1.aliexpress-media.com/kf/S56814105d8a74c08979593c506412fb6O.jpg_220x220q75.jpg_.avif",
-      "https://ae-pic-a1.aliexpress-media.com/kf/Sfc98910694a1478abb0f2cd915880695c.jpg_220x220q75.jpg_.avif",
-      "https://ae-pic-a1.aliexpress-media.com/kf/Sdb8a3560a0754af3bdf5971d64f68b49A.jpg_220x220q75.jpg_.avif",
-      "https://ae-pic-a1.aliexpress-media.com/kf/Sd80a0b5f6b0b42759a8e5ae7886dd0ebQ.jpg_220x220q75.jpg_.avif",
-      "https://ae-pic-a1.aliexpress-media.com/kf/Scee17d0af2ca4c8eae0173143b966e6dm.jpg_220x220q75.jpg_.avif"
+      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-1.jpg",
+      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-2.jpg",
+      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-3.jpg",
+      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-4.jpg",
+      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-5.jpg",
+      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-6.jpg",
+      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-7.jpg"
     ],
     "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
     "description": [
