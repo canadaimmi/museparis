@@ -160,7 +160,7 @@ function initNewsletterForms() {
 /* ===================== PRODUCT DATA ===================== */
 
 async function fetchProducts() {
-  const res = await fetch('data/products.json');
+  const res = await fetch('/data/products.json');
   return res.json();
 }
 
