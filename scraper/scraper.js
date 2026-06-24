@@ -93,12 +93,70 @@ function getItemType(product) {
 
 function cleanImageUrl(url) {
   if (!url) return '';
-  // Clean AliExpress image suffix like _50x50q70.jpg_.avif or _220x220.jpg etc.
-  let cleaned = url.replace(/_(\d+x\d+)?.*$/, '');
-  if (!/\.(jpg|jpeg|png|webp|avif|gif)$/i.test(cleaned)) {
+  let cleaned = url;
+  const match = url.match(/\.(jpg|jpeg|png|webp|avif)(?:_[^/]+)$/i);
+  if (match) {
+    cleaned = url.substring(0, url.lastIndexOf(match[0]) + match[1].length + 1);
+  }
+  cleaned = cleaned.replace(/\.(avif|webp)$/i, '.jpg');
+  if (!/\.(jpg|jpeg|png)$/i.test(cleaned)) {
     cleaned += '.jpg';
   }
   return cleaned;
+}
+
+async function shouldKeepImage(url, page) {
+  const urlLower = url.toLowerCase();
+  const blacklist = ["size", "chart", "guide", "ship", "map", "measure", "instruction", "banner"];
+  if (blacklist.some(word => urlLower.includes(word))) {
+    console.log(`  [FILTER] ${url} (URL contains blacklisted word)`);
+    return false;
+  }
+
+  // Check DOM for alt text if any image matches this URL
+  const hasBlacklistedAlt = await page.evaluate((imgUrl) => {
+    const imgs = Array.from(document.querySelectorAll('img'));
+    const matchingImg = imgs.find(img => img.src && img.src.includes(imgUrl));
+    if (matchingImg) {
+      const alt = (matchingImg.alt || '').toLowerCase();
+      return alt.includes('size') || alt.includes('chart');
+    }
+    return false;
+  }, url).catch(() => false);
+
+  if (hasBlacklistedAlt) {
+    console.log(`  [FILTER] ${url} (DOM alt text contains 'size' or 'chart')`);
+    return false;
+  }
+
+  // Check dimensions in browser context
+  const dims = await page.evaluate(async (imgUrl) => {
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.onload = () => resolve({ w: img.naturalWidth, h: img.naturalHeight });
+      img.onerror = () => resolve(null);
+      img.src = imgUrl;
+    });
+  }, url).catch(() => null);
+
+  if (!dims) {
+    console.log(`  [KEEP] ${url} (Could not load dimensions - keeping as fallback)`);
+    return true;
+  }
+
+  if (dims.w < 400 || dims.h < 400) {
+    console.log(`  [FILTER] ${url} (Dimensions too small: ${dims.w}x${dims.h})`);
+    return false;
+  }
+
+  // Landscape ratio check
+  if (dims.w > dims.h * 1.05) {
+    console.log(`  [FILTER] ${url} (Landscape ratio: ${dims.w}x${dims.h})`);
+    return false;
+  }
+
+  console.log(`  [KEEP] ${url} (Portrait/Square image: ${dims.w}x${dims.h})`);
+  return true;
 }
 
 function categorize(title) {
@@ -139,23 +197,10 @@ function appendProduct(product) {
 }
 
 async function scrapeProduct(page, url) {
-  // Enable request interception
-  await page.setRequestInterception(true);
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   
-  const rawInterceptedUrls = [];
-  
-  const requestListener = request => {
-    const requestUrl = request.url();
-    if ((requestUrl.includes('aliexpress-media.com') || requestUrl.includes('alicdn.com')) && 
-        (/\.(jpg|webp|jpeg|png|avif)$/i.test(requestUrl.split('?')[0]) || requestUrl.includes('.jpg') || requestUrl.includes('.webp'))) {
-      rawInterceptedUrls.push(requestUrl);
-    }
-    request.continue();
-  };
-
-  page.on('request', requestListener);
-
-  await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+  console.log('Waiting 10 seconds for initial content to load...');
+  await new Promise(r => setTimeout(r, 10000));
 
   // Scroll down slowly to trigger image loading and description loading
   await page.evaluate(async () => {
@@ -175,20 +220,88 @@ async function scrapeProduct(page, url) {
   });
   await new Promise(r => setTimeout(r, 2000));
 
-  const title = await page.$eval('h1', el => el.textContent.trim()).catch(() => 'Untitled Product');
+  const title = await page.evaluate(() => {
+    const h1 = document.querySelector('h1');
+    if (h1 && h1.textContent.trim() !== 'Aliexpress') {
+      return h1.textContent.trim();
+    }
+    const titleEl = document.querySelector('[class*="title--wrap"], [class*="product-title"]');
+    if (titleEl) {
+      return titleEl.textContent.trim();
+    }
+    return document.title.split(' - ')[0].trim();
+  });
 
-  const priceText = await page.$eval(
-    '[class*="product-price-value"], [class*="Price--current"]',
-    el => el.textContent.trim()
-  ).catch(() => '0');
+  const priceText = await page.$eval('[class*="price-default--current"], [class*="price--currentPrice"], [class*="product-price-value"], [class*="Price--current"]', el => el.textContent.trim()).catch(() => '0');
   const price = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
 
-  // Filter: Must contain '/kf/' and must NOT contain small dimension filenames (like 20x20.png, 624x160.png, etc.)
-  const images = Array.from(new Set(
-    rawInterceptedUrls
-      .filter(u => u.includes('/kf/') && !/\/\d+x\d+\.[a-z0-9]+$/i.test(u.split('?')[0]))
-      .map(cleanImageUrl)
-  )).filter(Boolean);
+  const originalPriceText = await page.$eval('[class*="price-default--original"]', el => el.textContent.trim()).catch(() => null);
+  const originalPrice = originalPriceText ? parseFloat(originalPriceText.replace(/[^0-9.]/g, '')) : null;
+
+  // Swatches extraction
+  const swatchSelector = '[class*="sku-item--image"]';
+  const swatches = await page.$$(swatchSelector);
+  console.log(`Found ${swatches.length} color swatches on the page.`);
+
+  const colours = [];
+  const allCleanedImages = new Set();
+
+  if (swatches.length === 0) {
+    console.log('No color swatches found, treating as single colour.');
+    const domUrls = await page.evaluate(() => {
+      const imgs = Array.from(document.querySelectorAll('[class*="slider--img"] img'));
+      return imgs.map(img => img.src);
+    });
+    const filtered = [];
+    for (const u of domUrls) {
+      const cleaned = cleanImageUrl(u);
+      if (cleaned && await shouldKeepImage(cleaned, page)) {
+        filtered.push(cleaned);
+        allCleanedImages.add(cleaned);
+      }
+    }
+    colours.push({
+      name: 'Default',
+      images: Array.from(new Set(filtered))
+    });
+  } else {
+    for (let i = 0; i < swatches.length; i++) {
+      console.log(`Selecting color swatch ${i + 1} of ${swatches.length}...`);
+      await swatches[i].click();
+      await new Promise(r => setTimeout(r, 3000));
+      
+      const colorName = await page.evaluate(() => {
+        const titleEl = document.querySelector('[class*="sku-item--title"]');
+        if (titleEl) {
+          const spans = titleEl.querySelectorAll('span');
+          if (spans.length > 1) {
+            return spans[spans.length - 1].textContent.trim();
+          }
+          return titleEl.textContent.replace(/color|colour|:|：/ig, '').trim();
+        }
+        return 'Unknown';
+      });
+
+      const domUrls = await page.evaluate(() => {
+        const imgs = Array.from(document.querySelectorAll('[class*="slider--img"] img'));
+        return imgs.map(img => img.src);
+      });
+      
+      const filtered = [];
+      for (const u of domUrls) {
+        const cleaned = cleanImageUrl(u);
+        if (cleaned && await shouldKeepImage(cleaned, page)) {
+          filtered.push(cleaned);
+          allCleanedImages.add(cleaned);
+        }
+      }
+      
+      colours.push({
+        name: colorName,
+        images: Array.from(new Set(filtered))
+      });
+    }
+  }
 
   const description = await page.$eval(
     '[class*="product-description"], [class*="detail-desc"]',
@@ -200,11 +313,7 @@ async function scrapeProduct(page, url) {
     nodes => nodes.map(n => n.textContent.trim()).find(t => /fabric|material|composition/i.test(t)) || ''
   ).catch(() => '');
 
-  // Cleanup request interception to avoid leaks
-  page.off('request', requestListener);
-  await page.setRequestInterception(false).catch(() => {});
-
-  return { title, price, images, description, materials };
+  return { title, price, originalPrice, colours, allImages: Array.from(allCleanedImages), description, materials };
 }
 
 async function generateCaption(title, description) {
@@ -220,13 +329,13 @@ async function generateCaption(title, description) {
 }
 
 async function downloadProductImages(imageUrls, productId) {
-  if (!imageUrls || imageUrls.length === 0) return [];
+  if (!imageUrls || imageUrls.length === 0) return {};
   if (!fs.existsSync(IMAGES_DIR)) fs.mkdirSync(IMAGES_DIR, { recursive: true });
 
   console.log(`Found ${imageUrls.length} full-resolution URLs for product ${productId}:`);
   imageUrls.forEach((url, i) => console.log(`  [${i + 1}] ${url}`));
 
-  const localPaths = [];
+  const urlMap = {};
   let savedIndex = 1;
   for (let i = 0; i < imageUrls.length; i++) {
     const imageUrl = imageUrls[i];
@@ -261,14 +370,14 @@ async function downloadProductImages(imageUrls, productId) {
         console.log(`  Deleting small/invalid image: ${dest} (${stats.size} bytes)`);
         fs.unlinkSync(dest);
       } else {
-        localPaths.push(`images/${filename}`);
+        urlMap[imageUrl] = `images/${filename}`;
         savedIndex++;
       }
     } catch (err) {
       console.log(`✗ Failed to download image ${i + 1}: ${err.message}`);
     }
   }
-  return localPaths;
+  return urlMap;
 }
 
 async function run() {
@@ -278,8 +387,19 @@ async function run() {
     return;
   }
 
-  const browser = await puppeteer.launch({ headless: 'new' });
+  // Connect to existing browser if running, otherwise launch headless
+  console.log('Connecting to browser on port 9222...');
+  let browser;
+  try {
+    browser = await puppeteer.connect({ browserURL: 'http://127.0.0.1:9222' });
+    console.log('Connected to existing browser successfully.');
+  } catch (err) {
+    console.log('Could not connect to port 9222, launching fresh browser...', err.message);
+    browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  }
+
   const page = await browser.newPage();
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
   for (const url of urls) {
     try {
@@ -295,14 +415,14 @@ async function run() {
         id,
         name: scraped.title,
         price: scraped.price,
-        originalPrice: null,
+        originalPrice: scraped.originalPrice,
         category,
         subCategory: category,
         isClothing,
-        colours: ['Default'],
+        colours: scraped.colours,
         sizes: isClothing ? ['XS', 'S', 'M', 'L', 'XL'] : [],
         stock: isClothing ? { XS: 5, S: 5, M: 5, L: 5, XL: 5 } : {},
-        images: scraped.images.slice(0, 5),
+        images: scraped.allImages,
         caption,
         description: scraped.description.split('.').map(s => s.trim()).filter(Boolean).slice(0, 6),
         materials: scraped.materials || 'See original listing',
@@ -315,10 +435,15 @@ async function run() {
       const type = getItemType(product);
       product.displayName = `${fName} ${type}`;
 
-      const localImages = await downloadProductImages(product.images, id);
-      if (localImages && localImages.length > 0) {
-        product.images = localImages;
+      const urlMap = await downloadProductImages(product.images, id);
+      const localPaths = product.images.map(imgUrl => urlMap[imgUrl]).filter(Boolean);
+      if (localPaths && localPaths.length > 0) {
+        product.images = localPaths;
+        product.colours.forEach(col => {
+          col.images = col.images.map(imgUrl => urlMap[imgUrl]).filter(Boolean);
+        });
       }
+      
       appendProduct(product);
 
       console.log(`✓ ${product.name} → ${category}`);
@@ -329,7 +454,12 @@ async function run() {
     await new Promise(r => setTimeout(r, DELAY_MS));
   }
 
-  await browser.close();
+  // If we connected to browser, disconnect rather than close it
+  if (browser.disconnect) {
+    browser.disconnect();
+  } else {
+    await browser.close();
+  }
 }
 
 run();
