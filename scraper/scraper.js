@@ -10,6 +10,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 require('dotenv').config();
 const puppeteer = require('puppeteer');
 const Anthropic = require('@anthropic-ai/sdk');
@@ -123,7 +124,7 @@ async function generateCaption(title, description) {
   return message.content[0].text.trim();
 }
 
-async function downloadProductImages(imageUrls, productId, page) {
+async function downloadProductImages(imageUrls, productId) {
   if (!imageUrls || imageUrls.length === 0) return;
   if (!fs.existsSync(IMAGES_DIR)) fs.mkdirSync(IMAGES_DIR, { recursive: true });
 
@@ -135,9 +136,26 @@ async function downloadProductImages(imageUrls, productId, page) {
     const dest = path.join(IMAGES_DIR, `${productId}-${i + 1}.jpg`);
     try {
       console.log(`Downloading ${imageUrl} -> ${productId}-${i + 1}.jpg`);
-      const viewSource = await page.goto(imageUrl, { waitUntil: 'networkidle2', timeout: 30000 });
-      const buffer = await viewSource.buffer();
-      fs.writeFileSync(dest, buffer);
+      await new Promise((resolve, reject) => {
+        const options = {
+          headers: {
+            'Accept': 'image/jpeg',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+          }
+        };
+        https.get(imageUrl, options, (res) => {
+          if (res.statusCode !== 200) {
+            reject(new Error(`Status code: ${res.statusCode}`));
+            return;
+          }
+          const fileStream = fs.createWriteStream(dest);
+          res.pipe(fileStream);
+          fileStream.on('finish', () => {
+            fileStream.close();
+            resolve();
+          });
+        }).on('error', reject);
+      });
     } catch (err) {
       console.log(`✗ Failed to download image ${i + 1}: ${err.message}`);
     }
@@ -183,7 +201,7 @@ async function run() {
       };
 
       appendProduct(product);
-      await downloadProductImages(product.images, id, page);
+      await downloadProductImages(product.images, id);
 
       console.log(`✓ ${product.name} → ${category}`);
     } catch (err) {

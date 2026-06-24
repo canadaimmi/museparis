@@ -8,8 +8,9 @@
     "start": "node scraper.js"
   },
   "dependencies": {
-    "puppeteer": "^22.0.0",
     "@anthropic-ai/sdk": "^0.27.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "image-size": "^2.0.2",
+    "puppeteer": "^22.0.0"
   }
 }
