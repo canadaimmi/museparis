@@ -33,6 +33,16 @@ const CATEGORY_KEYWORDS = [
   { category: 'swimwear', isClothing: true, words: ['swimwear', 'bikini', 'swimsuit'] },
 ];
 
+function cleanImageUrl(url) {
+  if (!url) return '';
+  // Clean AliExpress image suffix like _50x50q70.jpg_.avif or _220x220.jpg etc.
+  let cleaned = url.replace(/_(\d+x\d+)?.*$/, '');
+  if (!/\.(jpg|jpeg|png|webp|avif|gif)$/i.test(cleaned)) {
+    cleaned += '.jpg';
+  }
+  return cleaned;
+}
+
 function categorize(title) {
   const lower = title.toLowerCase();
   for (const entry of CATEGORY_KEYWORDS) {
@@ -81,10 +91,12 @@ async function scrapeProduct(page, url) {
   ).catch(() => '0');
   const price = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
 
-  const images = await page.$$eval(
-    '[class*="images-view"] img, [class*="image-view"] img',
+  const rawImages = await page.$$eval(
+    '[class*="images-view"] img, [class*="image-view"] img, [class*="slider--img"] img, .product-main-image img, [class*="magnifier-image"] img',
     imgs => imgs.map(img => img.src).filter(src => src && src.startsWith('http'))
   ).catch(() => []);
+
+  const images = Array.from(new Set(rawImages.map(cleanImageUrl))).filter(Boolean);
 
   const description = await page.$eval(
     '[class*="product-description"], [class*="detail-desc"]',
@@ -105,19 +117,31 @@ async function generateCaption(title, description) {
     max_tokens: 150,
     messages: [{
       role: 'user',
-      content: `Write a 2-sentence product caption for this item in an elegant, minimal, Parisian tone. No exclamation marks. Product: ${title}. Details: ${description}`
+      content: `Write a 2-sentence product product caption for this item in an elegant, Parisian-inspired tone. Product: ${title}. Details: ${description}`
     }]
   });
   return message.content[0].text.trim();
 }
 
-async function downloadFirstImage(imageUrl, productId, page) {
-  if (!imageUrl) return;
+async function downloadProductImages(imageUrls, productId, page) {
+  if (!imageUrls || imageUrls.length === 0) return;
   if (!fs.existsSync(IMAGES_DIR)) fs.mkdirSync(IMAGES_DIR, { recursive: true });
-  const dest = path.join(IMAGES_DIR, `${productId}-1.jpg`);
-  const viewSource = await page.goto(imageUrl);
-  const buffer = await viewSource.buffer();
-  fs.writeFileSync(dest, buffer);
+
+  console.log(`Found ${imageUrls.length} full-resolution URLs for product ${productId}:`);
+  imageUrls.forEach((url, i) => console.log(`  [${i + 1}] ${url}`));
+
+  for (let i = 0; i < imageUrls.length; i++) {
+    const imageUrl = imageUrls[i];
+    const dest = path.join(IMAGES_DIR, `${productId}-${i + 1}.jpg`);
+    try {
+      console.log(`Downloading ${imageUrl} -> ${productId}-${i + 1}.jpg`);
+      const viewSource = await page.goto(imageUrl, { waitUntil: 'networkidle2', timeout: 30000 });
+      const buffer = await viewSource.buffer();
+      fs.writeFileSync(dest, buffer);
+    } catch (err) {
+      console.log(`✗ Failed to download image ${i + 1}: ${err.message}`);
+    }
+  }
 }
 
 async function run() {
@@ -159,7 +183,7 @@ async function run() {
       };
 
       appendProduct(product);
-      await downloadFirstImage(scraped.images[0], id, page);
+      await downloadProductImages(product.images, id, page);
 
       console.log(`✓ ${product.name} → ${category}`);
     } catch (err) {
