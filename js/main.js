@@ -380,8 +380,6 @@ function initProductPage() {
       Cart.add(product);
     });
 
-    document.getElementById('pdOriginalLink').href = product.aliexpressUrl;
-
     // tabs
     document.querySelectorAll('.pd-tab-btn').forEach(btn => {
       btn.addEventListener('click', () => {
