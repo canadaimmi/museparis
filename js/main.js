@@ -335,7 +335,6 @@ function initProductPage() {
     document.getElementById('pdFeatures').innerHTML = product.description.map(d => `<li>${d}</li>`).join('');
 
     document.getElementById('pdMaterials').textContent = product.materials;
-    document.getElementById('pdOrigin').textContent = product.origin;
     document.getElementById('pdCare').textContent = product.care;
 
     document.getElementById('pdSwatchThumb').src = product.images[0];
