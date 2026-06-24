@@ -142,5 +142,37 @@
     "origin": "Made in Turkey",
     "aliexpressUrl": "https://www.aliexpress.com/wholesale?SearchText=gold+drop+earrings",
     "tags": ["best-seller"]
+  },
+  {
+    "id": "seasons-new-womens-clothing-cotton-and-linen-vest-backless",
+    "name": "Season's New Women's Clothing Cotton and Linen Vest Backless Solid Color Mini Dress Multi-color",
+    "price": 21.95,
+    "originalPrice": null,
+    "category": "dresses",
+    "subCategory": "short-dresses",
+    "isClothing": true,
+    "colours": ["SKY BLUE", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": { "S": 5, "M": 5, "L": 5, "XL": 5 },
+    "images": [
+      "https://ae-pic-a1.aliexpress-media.com/kf/S56814105d8a74c08979593c506412fb6O.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sfc98910694a1478abb0f2cd915880695c.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sdb8a3560a0754af3bdf5971d64f68b49A.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Sd80a0b5f6b0b42759a8e5ae7886dd0ebQ.jpg_220x220q75.jpg_.avif",
+      "https://ae-pic-a1.aliexpress-media.com/kf/Scee17d0af2ca4c8eae0173143b966e6dm.jpg_220x220q75.jpg_.avif"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256808511133081.html",
+    "tags": ["new"]
   }
 ]
