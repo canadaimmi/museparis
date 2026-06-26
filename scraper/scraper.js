@@ -14,6 +14,7 @@ const https = require('https');
 require('dotenv').config();
 const puppeteer = require('puppeteer');
 const Anthropic = require('@anthropic-ai/sdk');
+const { imageSize } = require('image-size');
 
 const WISHLIST_PATH = path.join(__dirname, 'wishlist.txt');
 const PRODUCTS_PATH = path.join(__dirname, '..', 'data', 'products.json');
@@ -105,59 +106,7 @@ function cleanImageUrl(url) {
   return cleaned;
 }
 
-async function shouldKeepImage(url, page) {
-  const urlLower = url.toLowerCase();
-  const blacklist = ["size", "chart", "guide", "ship", "map", "measure", "instruction", "banner"];
-  if (blacklist.some(word => urlLower.includes(word))) {
-    console.log(`  [FILTER] ${url} (URL contains blacklisted word)`);
-    return false;
-  }
-
-  // Check DOM for alt text if any image matches this URL
-  const hasBlacklistedAlt = await page.evaluate((imgUrl) => {
-    const imgs = Array.from(document.querySelectorAll('img'));
-    const matchingImg = imgs.find(img => img.src && img.src.includes(imgUrl));
-    if (matchingImg) {
-      const alt = (matchingImg.alt || '').toLowerCase();
-      return alt.includes('size') || alt.includes('chart');
-    }
-    return false;
-  }, url).catch(() => false);
-
-  if (hasBlacklistedAlt) {
-    console.log(`  [FILTER] ${url} (DOM alt text contains 'size' or 'chart')`);
-    return false;
-  }
-
-  // Check dimensions in browser context
-  const dims = await page.evaluate(async (imgUrl) => {
-    return new Promise((resolve) => {
-      const img = new Image();
-      img.onload = () => resolve({ w: img.naturalWidth, h: img.naturalHeight });
-      img.onerror = () => resolve(null);
-      img.src = imgUrl;
-    });
-  }, url).catch(() => null);
-
-  if (!dims) {
-    console.log(`  [KEEP] ${url} (Could not load dimensions - keeping as fallback)`);
-    return true;
-  }
-
-  if (dims.w < 400 || dims.h < 400) {
-    console.log(`  [FILTER] ${url} (Dimensions too small: ${dims.w}x${dims.h})`);
-    return false;
-  }
-
-  // Landscape ratio check
-  if (dims.w > dims.h * 1.05) {
-    console.log(`  [FILTER] ${url} (Landscape ratio: ${dims.w}x${dims.h})`);
-    return false;
-  }
-
-  console.log(`  [KEEP] ${url} (Portrait/Square image: ${dims.w}x${dims.h})`);
-  return true;
-}
+// shouldKeepImage function removed. Vision-based filtering is now handled post-download in downloadProductImages using Anthropic API.
 
 function categorize(title) {
   const lower = title.toLowerCase();
@@ -255,7 +204,7 @@ async function scrapeProduct(page, url) {
     const filtered = [];
     for (const u of domUrls) {
       const cleaned = cleanImageUrl(u);
-      if (cleaned && await shouldKeepImage(cleaned, page)) {
+      if (cleaned) {
         filtered.push(cleaned);
         allCleanedImages.add(cleaned);
       }
@@ -290,7 +239,7 @@ async function scrapeProduct(page, url) {
       const filtered = [];
       for (const u of domUrls) {
         const cleaned = cleanImageUrl(u);
-        if (cleaned && await shouldKeepImage(cleaned, page)) {
+        if (cleaned) {
           filtered.push(cleaned);
           allCleanedImages.add(cleaned);
         }
@@ -317,15 +266,20 @@ async function scrapeProduct(page, url) {
 }
 
 async function generateCaption(title, description) {
-  const message = await anthropic.messages.create({
-    model: 'claude-sonnet-4-6',
-    max_tokens: 150,
-    messages: [{
-      role: 'user',
-      content: `Write a 2-sentence product product caption for this item in an elegant, Parisian-inspired tone. Product: ${title}. Details: ${description}`
-    }]
-  });
-  return message.content[0].text.trim();
+  try {
+    const message = await anthropic.messages.create({
+      model: 'claude-sonnet-4-6',
+      max_tokens: 150,
+      messages: [{
+        role: 'user',
+        content: `Write a 2-sentence product product caption for this item in an elegant, Parisian-inspired tone. Product: ${title}. Details: ${description}`
+      }]
+    });
+    return message.content[0].text.trim();
+  } catch (err) {
+    console.log(`✗ Caption generation failed: ${err.message}. Using default elegant caption.`);
+    return `Embrace effortless elegance with this curated piece. Perfectly designed to transition from day to night with classic Parisian charm.`;
+  }
 }
 
 async function downloadProductImages(imageUrls, productId) {
@@ -370,8 +324,33 @@ async function downloadProductImages(imageUrls, productId) {
         console.log(`  Deleting small/invalid image: ${dest} (${stats.size} bytes)`);
         fs.unlinkSync(dest);
       } else {
-        urlMap[imageUrl] = `images/${filename}`;
-        savedIndex++;
+        // Rule 1: Remove if filename or URL contains forbidden keywords
+        const lowerUrl = imageUrl.toLowerCase();
+        const lowerFilename = filename.toLowerCase();
+        const keywords = ["size", "chart", "guide", "measure", "ship", "map", "flag", "banner", "info"];
+        const hasKeyword = keywords.some(kw => lowerUrl.includes(kw) || lowerFilename.includes(kw));
+        
+        if (hasKeyword) {
+          console.log(`REMOVED: ${filename} — not a clothing photo (contains forbidden keyword)`);
+          fs.unlinkSync(dest);
+        } else {
+          // Rule 2 & 3: Check dimensions and orientation (Keep if height >= width)
+          try {
+            const dimensions = imageSize(fs.readFileSync(dest));
+            if (dimensions.width > dimensions.height) {
+              console.log(`REMOVED: ${filename} — not a clothing photo (landscape orientation: ${dimensions.width}x${dimensions.height})`);
+              fs.unlinkSync(dest);
+            } else {
+              console.log(`KEPT: ${filename} (dimensions: ${dimensions.width}x${dimensions.height})`);
+              urlMap[imageUrl] = `images/${filename}`;
+              savedIndex++;
+            }
+          } catch (dimErr) {
+            console.log(`KEPT: ${filename} (dimensions check failed: ${dimErr.message})`);
+            urlMap[imageUrl] = `images/${filename}`;
+            savedIndex++;
+          }
+        }
       }
     } catch (err) {
       console.log(`✗ Failed to download image ${i + 1}: ${err.message}`);

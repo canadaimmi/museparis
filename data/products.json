@@ -264,23 +264,52 @@
   {
     "id": "seasons-new-womens-clothing-cotton-and-linen-vest-backless",
     "name": "Season's New Women's Clothing Cotton and Linen Vest Backless Solid Color Mini Dress Multi-color",
-    "price": 21.95,
-    "originalPrice": null,
+    "price": 21.92,
+    "originalPrice": 45.84,
     "category": "dresses",
-    "subCategory": "short-dresses",
+    "subCategory": "dresses",
     "isClothing": true,
     "colours": [
-      "SKY BLUE",
-      "Black",
-      "White"
+      {
+        "name": "SKY BLUE",
+        "images": [
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-1.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-2.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-3.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-4.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-5.jpg"
+        ]
+      },
+      {
+        "name": "black",
+        "images": [
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-1.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-2.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-3.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-4.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-5.jpg"
+        ]
+      },
+      {
+        "name": "WHITE",
+        "images": [
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-1.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-2.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-3.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-4.jpg",
+          "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-5.jpg"
+        ]
+      }
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
       "L",
       "XL"
     ],
     "stock": {
+      "XS": 5,
       "S": 5,
       "M": 5,
       "L": 5,
@@ -291,20 +320,12 @@
       "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-2.jpg",
       "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-3.jpg",
       "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-4.jpg",
-      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-5.jpg",
-      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-6.jpg",
-      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-7.jpg"
+      "images/season-s-new-women-s-clothing-cotton-and-linen-vest-backless-5.jpg"
     ],
-    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
-    "description": [
-      "Cotton linen blend mini dress",
-      "Sleeveless halter vest silhouette",
-      "Daring open backless detail",
-      "Flared fluid skirt",
-      "Perfect for warm summer days or beach vacations"
-    ],
-    "materials": "Cotton, Linen",
-    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "caption": "Embrace effortless elegance with this curated piece. Perfectly designed to transition from day to night with classic Parisian charm.",
+    "description": [],
+    "materials": "See original listing",
+    "care": "See original listing for care instructions",
     "origin": "Ships from supplier",
     "aliexpressUrl": "https://www.aliexpress.us/item/3256808511133081.html",
     "tags": [
