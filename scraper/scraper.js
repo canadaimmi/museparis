@@ -89,7 +89,62 @@ function getItemType(product) {
     return 'Accessory';
   }
   
-  return 'Item';
+}
+
+function extractFabric(title, materialsText) {
+  const titleLower = title.toLowerCase();
+  const matsLower = (materialsText || '').toLowerCase();
+  
+  if (titleLower.includes('cotton') && titleLower.includes('linen')) {
+    return 'Cotton, Linen';
+  }
+  if (titleLower.includes('linen')) {
+    return '100% Linen';
+  }
+  if (titleLower.includes('cotton')) {
+    return '100% Cotton';
+  }
+  if (matsLower.includes('polyester')) {
+    return 'Polyester';
+  }
+  return 'Cotton, Linen'; // fallback
+}
+
+function generateDetails(title, category) {
+  if (category === 'dresses') {
+    return [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ];
+  }
+  if (category === 'tops') {
+    return [
+      "Soft touch sleeveless silhouette",
+      "Perfect for layering under blazers",
+      "Comfortable and breathable fit",
+      "Versatile addition to your basics rotation"
+    ];
+  }
+  return [
+    "Crafted from premium fabrics",
+    "Elegant design suitable for multiple occasions",
+    "Carefully finished seams and edges",
+    "Designed in a classic, versatile style"
+  ];
+}
+
+function getCareInstructions(materials) {
+  const mats = materials.toLowerCase();
+  if (mats.includes('linen') || mats.includes('cotton')) {
+    return 'Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.';
+  }
+  if (mats.includes('polyester')) {
+    return 'Machine wash cold, gentle cycle, tumble dry low, warm iron if needed.';
+  }
+  return 'Hand wash cold. Lay flat to dry.';
 }
 
 function cleanImageUrl(url) {
@@ -278,7 +333,7 @@ async function generateCaption(title, description) {
     return message.content[0].text.trim();
   } catch (err) {
     console.log(`✗ Caption generation failed: ${err.message}. Using default elegant caption.`);
-    return `Embrace effortless elegance with this curated piece. Perfectly designed to transition from day to night with classic Parisian charm.`;
+    return `Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.`;
   }
 }
 
@@ -390,6 +445,10 @@ async function run() {
       const productsCount = readProducts().length;
       const fName = frenchNames[productsCount % frenchNames.length];
 
+      const materials = extractFabric(scraped.title, scraped.materials);
+      const details = generateDetails(scraped.title, category);
+      const care = getCareInstructions(materials);
+
       const product = {
         id,
         name: scraped.title,
@@ -403,9 +462,9 @@ async function run() {
         stock: isClothing ? { XS: 5, S: 5, M: 5, L: 5, XL: 5 } : {},
         images: scraped.allImages,
         caption,
-        description: scraped.description.split('.').map(s => s.trim()).filter(Boolean).slice(0, 6),
-        materials: scraped.materials || 'See original listing',
-        care: 'See original listing for care instructions',
+        description: details,
+        materials,
+        care,
         origin: 'Ships from supplier',
         aliexpressUrl: url,
         tags: ['new']
