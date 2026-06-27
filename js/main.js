@@ -265,9 +265,10 @@ function productCardHTML(p) {
     return `<span class="${avail ? 'avail' : 'oos'}">${s}</span>`;
   }).join('');
 
-  const coloursHTML = (p.colours || []).map((c, idx) =>
-    `<span class="${idx === 0 ? 'active-colour' : ''}">${c}</span>`
-  ).join(' | ');
+  const coloursHTML = (p.colours || []).map((c, idx) => {
+    const name = typeof c === 'object' ? c.name : c;
+    return `<span class="${idx === 0 ? 'active-colour' : ''}">${name}</span>`;
+  }).join(' | ');
 
   let priceHTML = '';
   if (p.originalPrice && p.salePrice) {
@@ -275,13 +276,13 @@ function productCardHTML(p) {
     const sale = p.salePrice.toFixed(2);
     priceHTML = `
       <span style="text-decoration:line-through; color:#999;">$${original}</span>
-      <span style="color:#F2CECE; font-weight:bold; margin-left:6px;">$${sale}</span>
+      <span style="color:#FF1493; font-weight:bold; margin-left:6px;">$${sale}</span>
     `;
   } else {
     priceHTML = `<span style="font-weight:bold;">$${p.price.toFixed(2)}</span>`;
   }
 
-  const freeShippingHTML = p.freeShipping ? `<span style="display:block; color:#F2CECE; font-size:0.75rem; margin-top:2px;">Free Shipping</span>` : '';
+  const freeShippingHTML = p.freeShipping ? `<span style="display:block; color:#FF1493; font-size:0.75rem; margin-top:2px;">Free Shipping</span>` : '';
 
   return `
     <a href="#" class="product-card" data-id="${p.id}">
@@ -320,20 +321,21 @@ function initProductPage() {
     document.getElementById('bcProduct').textContent = product.displayName || product.name;
 
     document.getElementById('pdName').textContent = product.displayName || product.name;
-    document.getElementById('pdColour').textContent = product.colours[0];
+    const firstColourName = typeof product.colours[0] === 'object' ? product.colours[0].name : product.colours[0];
+    document.getElementById('pdColour').textContent = firstColourName;
     const priceEl = document.getElementById('pdPrice');
     if (product.originalPrice && product.salePrice) {
       const original = product.originalPrice.toFixed(2);
       const sale = product.salePrice.toFixed(2);
       priceEl.innerHTML = `
         <span style="text-decoration:line-through; color:#999;">$${original}</span>
-        <span style="color:#F2CECE; font-weight:bold; margin-left:8px;">$${sale}</span>
+        <span style="color:#FF1493; font-weight:bold; margin-left:8px;">$${sale}</span>
       `;
     } else {
       priceEl.innerHTML = `<span style="font-weight:bold;">$${product.price.toFixed(2)}</span>`;
     }
 
-    // Below price add: <p style="color:#F2CECE; font-size:0.85rem;">Free Shipping</p>
+    // Below price add: <p style="color:#FF1493; font-size:0.85rem;">Free Shipping</p>
     let freeShippingBadge = document.getElementById('pdFreeShipping');
     if (freeShippingBadge) {
       freeShippingBadge.remove();
@@ -341,7 +343,7 @@ function initProductPage() {
     if (product.freeShipping) {
       const priceParagraph = document.querySelector('.pd-colour-price');
       if (priceParagraph) {
-        priceParagraph.insertAdjacentHTML('afterend', `<p id="pdFreeShipping" style="color:#F2CECE; font-size:0.85rem; margin-top:4px; margin-bottom:12px;">Free Shipping</p>`);
+        priceParagraph.insertAdjacentHTML('afterend', `<p id="pdFreeShipping" style="color:#FF1493; font-size:0.85rem; margin-top:4px; margin-bottom:12px;">Free Shipping</p>`);
       }
     }
 
@@ -373,8 +375,45 @@ function initProductPage() {
     document.getElementById('pdMaterials').textContent = product.materials;
     document.getElementById('pdCare').textContent = product.care;
 
-    document.getElementById('pdSwatchThumb').src = product.images[0];
-    document.getElementById('pdSwatchName').textContent = product.colours[0];
+    const swatchContainer = document.querySelector('.pd-colour-swatch');
+    if (swatchContainer && product.colours?.length) {
+      swatchContainer.innerHTML = product.colours.map((c, idx) => {
+        const name = typeof c === 'object' ? c.name : c;
+        const img = (typeof c === 'object' && c.images?.length) ? c.images[0] : product.images[0];
+        return `
+          <div class="swatch-item ${idx === 0 ? 'active' : ''}" data-idx="${idx}" style="display:inline-flex; align-items:center; gap:8px; cursor:pointer; border:1px solid #ccc; padding:4px 8px; border-radius:4px; margin-right:8px;">
+            <img class="swatch-thumb bg-placeholder" src="${img}" alt="${name}" style="width:24px; height:24px; object-fit:cover; border-radius:50%;">
+            <span class="swatch-name" style="font-size:12px; text-transform:uppercase;">${name}</span>
+          </div>
+        `;
+      }).join('');
+
+      swatchContainer.querySelectorAll('.swatch-item').forEach(item => {
+        item.addEventListener('click', () => {
+          swatchContainer.querySelectorAll('.swatch-item').forEach(i => i.classList.remove('active'));
+          item.classList.add('active');
+          const idx = parseInt(item.dataset.idx);
+          const c = product.colours[idx];
+          const name = typeof c === 'object' ? c.name : c;
+          document.getElementById('pdColour').textContent = name;
+
+          // Switch active image & thumbnails
+          if (typeof c === 'object' && c.images?.length) {
+            product.images = c.images;
+            document.getElementById('pdThumbs').innerHTML = product.images.map((img, i) =>
+              `<img class="pd-thumb bg-placeholder ${i === 0 ? 'active' : ''}" src="${img}" data-i="${i}" alt="Thumbnail ${i + 1}">`
+            ).join('');
+            document.querySelectorAll('.pd-thumb').forEach(t => {
+              t.addEventListener('click', () => showImage(+t.dataset.i));
+            });
+            showImage(0);
+          }
+        });
+      });
+    } else {
+      document.getElementById('pdSwatchThumb').src = product.images[0];
+      document.getElementById('pdSwatchName').textContent = '';
+    }
 
     // size guide tab only for clothing
     const sizeGuideBtn = document.getElementById('sizeGuideTabBtn');

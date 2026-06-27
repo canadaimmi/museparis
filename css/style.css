@@ -631,11 +631,11 @@ img { display: block; max-width: 100%; }
   font-weight: normal;
 }
 .sale-price {
-  color: #F2CECE;
+  color: #FF1493;
   font-weight: 700;
 }
 .free-shipping-badge {
-  color: #F2CECE;
+  color: #FF1493;
   font-size: 14px;
   font-weight: 500;
   margin-top: -12px;
@@ -645,7 +645,7 @@ img { display: block; max-width: 100%; }
 }
 .card-free-shipping {
   display: block;
-  color: #F2CECE;
+  color: #FF1493;
   font-size: 11px;
   margin-top: 2px;
   font-weight: 500;
