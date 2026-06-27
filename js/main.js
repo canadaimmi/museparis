@@ -272,14 +272,14 @@ function productCardHTML(p) {
 
   let priceHTML = '';
   if (p.originalPrice && p.salePrice) {
-    const original = p.originalPrice.toFixed(2);
-    const sale = p.salePrice.toFixed(2);
+    const original = Math.round(p.originalPrice);
+    const sale = Math.round(p.salePrice);
     priceHTML = `
       <span style="text-decoration:line-through; color:#999;">$${original}</span>
       <span style="color:#FF1493; font-weight:bold; margin-left:6px;">$${sale}</span>
     `;
   } else {
-    priceHTML = `<span style="font-weight:bold;">$${p.price.toFixed(2)}</span>`;
+    priceHTML = `<span style="font-weight:bold;">$${Math.round(p.price)}</span>`;
   }
 
   const freeShippingHTML = p.freeShipping ? `<span style="display:block; color:#FF1493; font-size:0.75rem; margin-top:2px;">Free Shipping</span>` : '';
@@ -325,14 +325,14 @@ function initProductPage() {
     document.getElementById('pdColour').textContent = firstColourName;
     const priceEl = document.getElementById('pdPrice');
     if (product.originalPrice && product.salePrice) {
-      const original = product.originalPrice.toFixed(2);
-      const sale = product.salePrice.toFixed(2);
+      const original = Math.round(product.originalPrice);
+      const sale = Math.round(product.salePrice);
       priceEl.innerHTML = `
         <span style="text-decoration:line-through; color:#999;">$${original}</span>
         <span style="color:#FF1493; font-weight:bold; margin-left:8px;">$${sale}</span>
       `;
     } else {
-      priceEl.innerHTML = `<span style="font-weight:bold;">$${product.price.toFixed(2)}</span>`;
+      priceEl.innerHTML = `<span style="font-weight:bold;">$${Math.round(product.price)}</span>`;
     }
 
     // Below price add: <p style="color:#FF1493; font-size:0.85rem;">Free Shipping</p>
