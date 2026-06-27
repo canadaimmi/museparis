@@ -449,11 +449,17 @@ async function run() {
       const details = generateDetails(scraped.title, category);
       const care = getCareInstructions(materials);
 
+      const costPrice = scraped.price;
+      const adjustedBase = costPrice + 5;
+      const calculatedOriginal = parseFloat((adjustedBase * 2 * 1.25).toFixed(2));
+      const calculatedSale = parseFloat((calculatedOriginal * 0.80).toFixed(2));
+
       const product = {
         id,
         name: scraped.title,
-        price: scraped.price,
-        originalPrice: scraped.originalPrice,
+        price: calculatedSale,
+        originalPrice: calculatedOriginal,
+        salePrice: calculatedSale,
         category,
         subCategory: category,
         isClothing,

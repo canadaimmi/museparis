@@ -623,7 +623,35 @@ img { display: block; max-width: 100%; }
 .newsletter-mini form { display: flex; border-bottom: 1px solid var(--charcoal); max-width: 280px; }
 .newsletter-mini input { flex: 1; border: none; padding: 8px 2px; font-size: 13px; outline: none; }
 .newsletter-mini button { border: none; background: none; font-size: 11px; text-transform: uppercase; }
-.footer-bottom { text-align: center; font-size: 11px; color: #aaa; border-top: 1px solid var(--line); padding-top: 24px; max-width: 1300px; margin: 0 auto; }
+
+/* ============ PRICING & BADGES ============ */
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+  font-weight: normal;
+}
+.sale-price {
+  color: #F2CECE;
+  font-weight: 700;
+}
+.free-shipping-badge {
+  color: #F2CECE;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -12px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.card-free-shipping {
+  display: block;
+  color: #F2CECE;
+  font-size: 11px;
+  margin-top: 2px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1024px) {

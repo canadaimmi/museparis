@@ -269,6 +269,14 @@ function productCardHTML(p) {
     `<span class="${idx === 0 ? 'active-colour' : ''}">${c}</span>`
   ).join(' | ');
 
+  const hasSale = p.originalPrice && p.originalPrice > p.price;
+  const priceHTML = hasSale ? `
+    <span class="original-price">$${p.originalPrice.toFixed(2)}</span>
+    <span class="sale-price">$${p.price.toFixed(2)}</span>
+  ` : `<span class="sale-price">$${p.price.toFixed(2)}</span>`;
+
+  const freeShippingHTML = `<span class="card-free-shipping">Free Shipping</span>`;
+
   return `
     <a href="#" class="product-card" data-id="${p.id}">
       <span class="heart">♡</span>
@@ -276,13 +284,13 @@ function productCardHTML(p) {
       <div class="quick-panel">
         <div>
           <p class="qp-name">${p.displayName || p.name}</p>
-          <p class="qp-price">$${p.price.toFixed(2)}</p>
+          <p class="qp-price">${priceHTML}${freeShippingHTML}</p>
           <p class="qp-colours">Available in ${coloursHTML}</p>
           ${p.sizes?.length ? `<div class="qp-sizes">${sizesHTML}</div>` : ''}
         </div>
         <div class="qp-footer">Quick Shop 🛍</div>
       </div>
-      <p class="name-price">${p.displayName || p.name} — $${p.price.toFixed(2)}</p>
+      <p class="name-price">${p.displayName || p.name} — ${priceHTML}${freeShippingHTML}</p>
     </a>
   `;
 }
@@ -307,7 +315,29 @@ function initProductPage() {
 
     document.getElementById('pdName').textContent = product.displayName || product.name;
     document.getElementById('pdColour').textContent = product.colours[0];
-    document.getElementById('pdPrice').textContent = `$${product.price.toFixed(2)}`;
+    const priceEl = document.getElementById('pdPrice');
+    const hasSale = product.originalPrice && product.originalPrice > product.price;
+    if (hasSale) {
+      priceEl.innerHTML = `
+        <span class="original-price">$${product.originalPrice.toFixed(2)}</span>
+        <span class="sale-price">$${product.price.toFixed(2)}</span>
+      `;
+    } else {
+      priceEl.innerHTML = `<span class="sale-price">$${product.price.toFixed(2)}</span>`;
+    }
+
+    // Add Free Shipping badge below the price on product detail page
+    let freeShippingBadge = document.getElementById('pdFreeShipping');
+    if (!freeShippingBadge) {
+      freeShippingBadge = document.createElement('div');
+      freeShippingBadge.id = 'pdFreeShipping';
+      freeShippingBadge.className = 'free-shipping-badge';
+      freeShippingBadge.textContent = 'Free Shipping';
+      const priceParagraph = document.querySelector('.pd-colour-price');
+      if (priceParagraph) {
+        priceParagraph.parentNode.insertBefore(freeShippingBadge, priceParagraph.nextSibling);
+      }
+    }
 
     let currentImage = 0;
     function showImage(i) {
