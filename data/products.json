@@ -264,10 +264,10 @@
   {
     "id": "seasons-new-womens-clothing-cotton-and-linen-vest-backless",
     "name": "Season's New Women's Clothing Cotton and Linen Vest Backless Solid Color Mini Dress Multi-color",
-    "price": 62.00,
+    "price": 62,
     "aliexpressPrice": 26,
-    "originalPrice": 77.50,
-    "salePrice": 62.00,
+    "originalPrice": 77.5,
+    "salePrice": 62,
     "shippingBuffer": 5,
     "freeShipping": true,
     "category": "dresses",
@@ -342,5 +342,71 @@
       "new"
     ],
     "displayName": "Vivienne Dress"
+  },
+  {
+    "id": "blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe",
+    "name": "Blue Sexy Backless Pleated Long Dress Women's Elegant Spaghetti Strap Loose V-neck Robes New Lady Vacation Beach Vestidos 2025",
+    "price": 63.14,
+    "aliexpressPrice": 18.09,
+    "originalPrice": 78.93,
+    "salePrice": 63.14,
+    "shippingBuffer": 13.48,
+    "freeShipping": true,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "SKY BLUE",
+        "images": [
+          "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-1.jpg",
+          "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-2.jpg",
+          "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-3.jpg",
+          "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-4.jpg",
+          "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-5.jpg",
+          "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-6.jpg",
+          "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-1.jpg",
+      "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-2.jpg",
+      "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-3.jpg",
+      "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-4.jpg",
+      "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-5.jpg",
+      "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-6.jpg",
+      "images/blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe-7.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256809516158026.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Sylvie Dress"
   }
 ]

@@ -317,7 +317,12 @@ async function scrapeProduct(page, url) {
     nodes => nodes.map(n => n.textContent.trim()).find(t => /fabric|material|composition/i.test(t)) || ''
   ).catch(() => '');
 
-  return { title, price, originalPrice, colours, allImages: Array.from(allCleanedImages), description, materials };
+  const shippingText = await page.evaluate(() => {
+    const shippingEl = document.querySelector('[class*="dynamic-shipping-titleLayout"], [class*="dynamic-shipping"], [class*="shipping--item"]');
+    return shippingEl ? shippingEl.textContent.trim() : '';
+  }).catch(() => '');
+
+  return { title, price, originalPrice, colours, allImages: Array.from(allCleanedImages), description, materials, shippingText };
 }
 
 async function generateCaption(title, description) {
@@ -414,6 +419,21 @@ async function downloadProductImages(imageUrls, productId) {
   return urlMap;
 }
 
+function parseShippingCost(text) {
+  if (!text) return 0;
+  const cleanText = text.toLowerCase();
+  if (cleanText.includes('free')) return 0;
+  const match = cleanText.match(/[0-9]+\.[0-9]+/);
+  if (match) {
+    return parseFloat(match[0]) || 0;
+  }
+  const matchInt = cleanText.match(/[0-9]+/);
+  if (matchInt) {
+    return parseFloat(matchInt[0]) || 0;
+  }
+  return 0;
+}
+
 async function run() {
   const urls = readWishlist();
   if (urls.length === 0) {
@@ -450,7 +470,9 @@ async function run() {
       const care = getCareInstructions(materials);
 
       const aliexpressPrice = scraped.price;
-      const adjusted = aliexpressPrice + 5;
+      const shippingCost = parseShippingCost(scraped.shippingText);
+      const shippingBuffer = shippingCost > 0 ? shippingCost : 5;
+      const adjusted = aliexpressPrice + shippingBuffer;
       const originalPrice = Math.round(adjusted * 2 * 1.25 * 100) / 100;
       const salePrice = Math.round(originalPrice * 0.80 * 100) / 100;
 
@@ -461,7 +483,7 @@ async function run() {
         aliexpressPrice,
         originalPrice,
         salePrice,
-        shippingBuffer: 5,
+        shippingBuffer,
         freeShipping: true,
         category,
         subCategory: category,
