@@ -449,17 +449,20 @@ async function run() {
       const details = generateDetails(scraped.title, category);
       const care = getCareInstructions(materials);
 
-      const costPrice = scraped.price;
-      const adjustedBase = costPrice + 5;
-      const calculatedOriginal = parseFloat((adjustedBase * 2 * 1.25).toFixed(2));
-      const calculatedSale = parseFloat((calculatedOriginal * 0.80).toFixed(2));
+      const aliexpressPrice = scraped.price;
+      const adjusted = aliexpressPrice + 5;
+      const originalPrice = Math.round(adjusted * 2 * 1.25 * 100) / 100;
+      const salePrice = Math.round(originalPrice * 0.80 * 100) / 100;
 
       const product = {
         id,
         name: scraped.title,
-        price: calculatedSale,
-        originalPrice: calculatedOriginal,
-        salePrice: calculatedSale,
+        price: salePrice,
+        aliexpressPrice,
+        originalPrice,
+        salePrice,
+        shippingBuffer: 5,
+        freeShipping: true,
         category,
         subCategory: category,
         isClothing,
