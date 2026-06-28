@@ -470,10 +470,9 @@ async function run() {
       const care = getCareInstructions(materials);
 
       const aliexpressPrice = scraped.price;
-      const shippingCost = parseShippingCost(scraped.shippingText);
-      const shippingBuffer = shippingCost > 0 ? shippingCost : 5;
+      const shippingBuffer = 5;
       const adjusted = aliexpressPrice + shippingBuffer;
-      const originalPrice = Math.round(adjusted * 4);
+      const originalPrice = Math.round(adjusted * 2.5);
       const salePrice = Math.round(originalPrice * 0.70);
 
       const product = {
