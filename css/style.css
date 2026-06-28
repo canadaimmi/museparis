@@ -675,3 +675,18 @@ img { display: block; max-width: 100%; }
   .masonry-grid { grid-template-columns: 1fr; }
   .product-row.cols-3, .product-row.cols-2 { grid-template-columns: 1fr; }
 }
+
+.announcement-bar {
+  background-color: #FAF6F6;
+  color: #FF1493;
+  border-bottom: 1px solid #F3EAEB;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  text-transform: uppercase;
+  z-index: 1000;
+  position: relative;
+}

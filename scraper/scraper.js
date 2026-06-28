@@ -473,8 +473,8 @@ async function run() {
       const shippingCost = parseShippingCost(scraped.shippingText);
       const shippingBuffer = shippingCost > 0 ? shippingCost : 5;
       const adjusted = aliexpressPrice + shippingBuffer;
-      const originalPrice = Math.round(adjusted * 2 * 1.25);
-      const salePrice = Math.round(originalPrice * 0.80);
+      const originalPrice = Math.round(adjusted * 4);
+      const salePrice = Math.round(originalPrice * 0.60);
 
       const product = {
         id,
@@ -484,7 +484,6 @@ async function run() {
         originalPrice,
         salePrice,
         shippingBuffer,
-        freeShipping: true,
         category,
         subCategory: category,
         isClothing,

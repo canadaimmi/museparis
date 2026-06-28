@@ -56,7 +56,7 @@ const Cart = {
           <div class="img-box bg-placeholder" style="background-image:url('${item.image}')"></div>
           <div class="cart-item-info">
             <p class="name">${item.name}</p>
-            <p class="price">$${item.price.toFixed(2)}</p>
+            <p class="price">$${Math.round(item.price)}</p>
             <div class="qty-controls">
               <button class="qty-minus">−</button>
               <span>${item.qty}</span>
@@ -76,7 +76,50 @@ const Cart = {
       });
     }
 
-    if (subtotalEl) subtotalEl.textContent = `$${this.subtotal().toFixed(2)}`;
+    const total = this.subtotal();
+    if (subtotalEl) subtotalEl.textContent = `$${Math.round(total)}`;
+
+    const footerEl = document.querySelector('.cart-footer');
+    if (footerEl) {
+      let promoEl = document.getElementById('cartShippingPromo');
+      let shippingLine = document.getElementById('cartShippingLine');
+      let shippingVal = document.getElementById('cartShippingVal');
+      
+      if (!promoEl) {
+        const subtotalDiv = footerEl.querySelector('.cart-subtotal');
+        if (subtotalDiv) {
+          subtotalDiv.insertAdjacentHTML('beforebegin', `
+            <div id="cartShippingPromo" style="font-size: 0.8rem; text-align: center; margin-bottom: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #FF1493;"></div>
+            <div id="cartShippingLine" style="display: flex; justify-content: space-between; font-size: 13px; color: var(--grey); margin-bottom: 8px;">
+              <span>Shipping</span>
+              <span id="cartShippingVal">Free</span>
+            </div>
+          `);
+          promoEl = document.getElementById('cartShippingPromo');
+          shippingLine = document.getElementById('cartShippingLine');
+          shippingVal = document.getElementById('cartShippingVal');
+        }
+      }
+      
+      if (promoEl) {
+        if (this.items.length === 0) {
+          promoEl.style.display = 'none';
+          if (shippingLine) shippingLine.style.display = 'none';
+        } else {
+          promoEl.style.display = 'block';
+          if (shippingLine) shippingLine.style.display = 'flex';
+          
+          if (total >= 65) {
+            promoEl.textContent = "Free Shipping Applied";
+            if (shippingVal) shippingVal.textContent = "Free";
+          } else {
+            const diff = 65 - total;
+            promoEl.textContent = `Add $${Math.round(diff)} more for free shipping`;
+            if (shippingVal) shippingVal.textContent = "$5";
+          }
+        }
+      }
+    }
   }
 };
 
@@ -282,7 +325,9 @@ function productCardHTML(p) {
     priceHTML = `<span style="font-weight:bold;">$${Math.round(p.price)}</span>`;
   }
 
-  const freeShippingHTML = p.freeShipping ? `<span style="display:block; color:#FF1493; font-size:0.75rem; margin-top:2px;">Free Shipping</span>` : '';
+  const salePriceVal = p.salePrice || p.price;
+  const freeShippingText = salePriceVal >= 65 ? "Free Shipping" : "Ships free over $65";
+  const freeShippingHTML = `<span style="display:block; color:#FF1493; font-size:0.75rem; margin-top:2px;">${freeShippingText}</span>`;
 
   return `
     <a href="#" class="product-card" data-id="${p.id}">
@@ -335,16 +380,16 @@ function initProductPage() {
       priceEl.innerHTML = `<span style="font-weight:bold;">$${Math.round(product.price)}</span>`;
     }
 
-    // Below price add: <p style="color:#FF1493; font-size:0.85rem;">Free Shipping</p>
+    // Below price shipping notice
     let freeShippingBadge = document.getElementById('pdFreeShipping');
     if (freeShippingBadge) {
       freeShippingBadge.remove();
     }
-    if (product.freeShipping) {
-      const priceParagraph = document.querySelector('.pd-colour-price');
-      if (priceParagraph) {
-        priceParagraph.insertAdjacentHTML('afterend', `<p id="pdFreeShipping" style="color:#FF1493; font-size:0.85rem; margin-top:4px; margin-bottom:12px;">Free Shipping</p>`);
-      }
+    const salePriceVal = product.salePrice || product.price;
+    const shippingText = salePriceVal >= 65 ? "Free Shipping" : "Free shipping on orders over $65";
+    const priceParagraph = document.querySelector('.pd-colour-price');
+    if (priceParagraph) {
+      priceParagraph.insertAdjacentHTML('afterend', `<p id="pdFreeShipping" style="color:#FF1493; font-weight:bold; font-size:0.85rem; margin-top:4px; margin-bottom:12px;">${shippingText}</p>`);
     }
 
     let currentImage = 0;

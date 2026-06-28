@@ -264,12 +264,11 @@
   {
     "id": "seasons-new-womens-clothing-cotton-and-linen-vest-backless",
     "name": "Season's New Women's Clothing Cotton and Linen Vest Backless Solid Color Mini Dress Multi-color",
-    "price": 62,
+    "price": 74,
     "aliexpressPrice": 26,
-    "originalPrice": 78,
-    "salePrice": 62,
+    "originalPrice": 124,
+    "salePrice": 74,
     "shippingBuffer": 5,
-    "freeShipping": true,
     "category": "dresses",
     "subCategory": "dresses",
     "isClothing": true,
@@ -346,12 +345,11 @@
   {
     "id": "blue-sexy-backless-pleated-long-dress-women-s-elegant-spaghe",
     "name": "Blue Sexy Backless Pleated Long Dress Women's Elegant Spaghetti Strap Loose V-neck Robes New Lady Vacation Beach Vestidos 2025",
-    "price": 63,
+    "price": 76,
     "aliexpressPrice": 18.09,
-    "originalPrice": 79,
-    "salePrice": 63,
+    "originalPrice": 126,
+    "salePrice": 76,
     "shippingBuffer": 13.48,
-    "freeShipping": true,
     "category": "dresses",
     "subCategory": "dresses",
     "isClothing": true,
@@ -422,12 +420,11 @@
   {
     "id": "elegant-bohemian-backless-v-neck-tie-high-waist-midi-dress-v",
     "name": "Elegant Bohemian Backless V Neck Tie High Waist Midi Dress Vintage Loose A line Spaghetti Strap Dresses Summer Beach 100% Cotton",
-    "price": 41,
+    "price": 49,
     "aliexpressPrice": 15.26,
-    "originalPrice": 51,
-    "salePrice": 41,
+    "originalPrice": 81,
+    "salePrice": 49,
     "shippingBuffer": 5,
-    "freeShipping": true,
     "category": "dresses",
     "subCategory": "dresses",
     "isClothing": true,
@@ -534,12 +531,11 @@
   {
     "id": "fleur-set",
     "name": "2025 Women Summer Two Pieces Suits Sleeveless 100% Cotton Tank Top With Long Skirt Two Pieces Women Sets Boho Ladies Outfits",
-    "price": 52,
+    "price": 62,
     "aliexpressPrice": 23.39,
-    "originalPrice": 65,
-    "salePrice": 52,
+    "originalPrice": 104,
+    "salePrice": 62,
     "shippingBuffer": 2.61,
-    "freeShipping": true,
     "category": "tops",
     "subCategory": "tops",
     "isClothing": true,
@@ -661,12 +657,11 @@
   {
     "id": "amelie-dress",
     "name": "2025 Summer French Elegant Black Loose Sling Women's Dress",
-    "price": 57,
+    "price": 68,
     "aliexpressPrice": 15.91,
-    "originalPrice": 71,
-    "salePrice": 57,
+    "originalPrice": 114,
+    "salePrice": 68,
     "shippingBuffer": 12.49,
-    "freeShipping": true,
     "category": "dresses",
     "subCategory": "dresses",
     "isClothing": true,
@@ -735,12 +730,11 @@
   {
     "id": "chloe-dress",
     "name": "Hollowed Out Pleated Long Dress For Women Sexy Sleeveless Backless Robe Chic Holiday Ladies Evening Vestidoes",
-    "price": 50,
+    "price": 61,
     "aliexpressPrice": 13.33,
-    "originalPrice": 63,
-    "salePrice": 50,
+    "originalPrice": 101,
+    "salePrice": 61,
     "shippingBuffer": 11.94,
-    "freeShipping": true,
     "category": "dresses",
     "subCategory": "dresses",
     "isClothing": true,
@@ -811,12 +805,11 @@
   {
     "id": "ines-set",
     "name": "Bornladies Women's 2026 Summer New Cami Skirt Set Sexy Boat Neck Cami Lace-up Open Back Mini Skirt Two-Piece Outfit",
-    "price": 42,
+    "price": 50,
     "aliexpressPrice": 16.03,
-    "originalPrice": 53,
-    "salePrice": 42,
+    "originalPrice": 84,
+    "salePrice": 50,
     "shippingBuffer": 5,
-    "freeShipping": true,
     "category": "tops",
     "subCategory": "tops",
     "isClothing": true,
@@ -881,5 +874,555 @@
       "new"
     ],
     "displayName": "Inès Set"
+  },
+  {
+    "id": "manon-dress",
+    "name": "2026 Summer Women's Crochet  Knit Maxi Dress, Sleeveless Hollow Out Tank Dress Casual Beach Vacation Outfit",
+    "price": 60,
+    "aliexpressPrice": 20.04,
+    "originalPrice": 100,
+    "salePrice": 60,
+    "shippingBuffer": 5,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "WHITE",
+        "images": [
+          "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-1.jpg",
+          "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-2.jpg",
+          "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-3.jpg",
+          "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-4.jpg",
+          "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-5.jpg",
+          "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-1.jpg",
+      "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-2.jpg",
+      "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-3.jpg",
+      "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-4.jpg",
+      "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-5.jpg",
+      "images/2026-summer-women-s-crochet-knit-maxi-dress-sleeveless-hollo-6.jpg"
+    ],
+    "caption": "Embodying a textured, beach-luxe aesthetic, this bohemian crochet knit maxi dress features a relaxed tank silhouette and delicate hollow-out details. Perfect for warm-weather escapes, it layers beautifully over swimwear for an effortless resort look.",
+    "description": [
+      "Textured crochet knit maxi length",
+      "Elegant sleeveless tank dress silhouette",
+      "Sensual hollow-out knit detailing",
+      "Breathable and comfortable pullover design",
+      "Bohemian look ideal for beach vacations and resort styling"
+    ],
+    "materials": "100% Polyester",
+    "care": "Hand wash cold. Lay flat to dry. Do not hang to store.",
+    "fabricContent": "100% Polyester",
+    "fabricEstimated": true,
+    "details": [
+      "Textured crochet knit maxi length",
+      "Elegant sleeveless tank dress silhouette",
+      "Sensual hollow-out knit detailing",
+      "Breathable and comfortable pullover design",
+      "Bohemian look ideal for beach vacations and resort styling"
+    ],
+    "careInstructions": "Hand wash cold. Lay flat to dry. Do not hang to store.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812026451923.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Manon Dress"
+  },
+  {
+    "id": "aurore-dress",
+    "name": "Women's Summer Stripes Backless Maxi Dress Ladies Summer Clothes Boho Fashion Frill Trim Long Dress For Beach Vestidos Elegant",
+    "price": 67,
+    "aliexpressPrice": 12.01,
+    "originalPrice": 112,
+    "salePrice": 67,
+    "shippingBuffer": 15.95,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Light Green",
+        "images": [
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-1.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-2.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-3.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-4.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-5.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-6.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-7.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-8.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-9.jpg"
+        ]
+      },
+      {
+        "name": "SKY BLUE",
+        "images": [
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-1.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-2.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-3.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-4.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-5.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-6.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-7.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-8.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-9.jpg"
+        ]
+      },
+      {
+        "name": "GRAY",
+        "images": [
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-1.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-2.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-3.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-4.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-5.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-6.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-7.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-8.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-9.jpg"
+        ]
+      },
+      {
+        "name": "Pink",
+        "images": [
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-1.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-2.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-3.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-4.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-5.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-6.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-7.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-8.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-9.jpg"
+        ]
+      },
+      {
+        "name": "PURPLE",
+        "images": [
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-1.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-2.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-3.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-4.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-5.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-6.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-7.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-8.jpg",
+          "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-9.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-1.jpg",
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-2.jpg",
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-3.jpg",
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-4.jpg",
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-5.jpg",
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-6.jpg",
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-7.jpg",
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-8.jpg",
+      "images/women-s-summer-stripes-backless-maxi-dress-ladies-summer-clo-9.jpg"
+    ],
+    "caption": "Capturing a breezy nautical charm inspired by the South of France, this striped maxi dress features a daring backless cut and playful frill trims. Its long A-line silhouette flows effortlessly, making it the perfect choice for seaside lunches or sunset strolls.",
+    "description": [
+      "Breezy striped print pattern",
+      "Sensual open backless design",
+      "Feminine frill trim detailing",
+      "Elegant flowing long maxi length A-line silhouette",
+      "Perfect for summer beach days and coastal styling"
+    ],
+    "materials": "100% Polyester",
+    "care": "Machine wash cold, gentle cycle, line dry. Cool iron if needed.",
+    "fabricContent": "100% Polyester",
+    "fabricEstimated": true,
+    "details": [
+      "Breezy striped print pattern",
+      "Sensual open backless design",
+      "Feminine frill trim detailing",
+      "Elegant flowing long maxi length A-line silhouette",
+      "Perfect for summer beach days and coastal styling"
+    ],
+    "careInstructions": "Machine wash cold, gentle cycle, line dry. Cool iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812195394363.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Aurore Dress"
+  },
+  {
+    "id": "simone-dress",
+    "name": "Women Striped V-Neck Spaghetti Strap Long Sundress Casual Vacation Summer Dress",
+    "price": 79,
+    "aliexpressPrice": 28.05,
+    "originalPrice": 132,
+    "salePrice": 79,
+    "shippingBuffer": 5,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "black",
+        "images": [
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-1.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-2.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-3.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-4.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-5.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-6.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-7.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-8.jpg"
+        ]
+      },
+      {
+        "name": "CoffeeBrown",
+        "images": [
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-1.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-2.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-3.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-4.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-5.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-6.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-7.jpg",
+          "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-8.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-1.jpg",
+      "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-2.jpg",
+      "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-3.jpg",
+      "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-4.jpg",
+      "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-5.jpg",
+      "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-6.jpg",
+      "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-7.jpg",
+      "images/women-striped-v-neck-spaghetti-strap-long-sundress-casual-va-8.jpg"
+    ],
+    "caption": "Exuding a relaxed Saint-Tropez allure, this striped spaghetti strap sundress combines a classic V-neckline with a flowing, casual silhouette. It is the ultimate piece for a carefree summer day, transitioning seamlessly from beach to bistro with casual-chic ease.",
+    "description": [
+      "Casual and stylish striped pattern sundress",
+      "Relaxed, comfortable V-neckline",
+      "Delicate spaghetti straps",
+      "Flowing long maxi length silhouette",
+      "Loose-fitting style perfect for summer vacation"
+    ],
+    "materials": "100% Polyester",
+    "care": "Machine wash cold, gentle cycle, line dry. Cool iron if needed.",
+    "fabricContent": "100% Polyester",
+    "fabricEstimated": true,
+    "details": [
+      "Casual and stylish striped pattern sundress",
+      "Relaxed, comfortable V-neckline",
+      "Delicate spaghetti straps",
+      "Flowing long maxi length silhouette",
+      "Loose-fitting style perfect for summer vacation"
+    ],
+    "careInstructions": "Machine wash cold, gentle cycle, line dry. Cool iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812059585733.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Simone Dress"
+  },
+  {
+    "id": "juliette-set",
+    "name": "Elegant Tube Tops Women's Pants Sets Backless Top Wide Leg Trousers New 2025 Spring Summer High Street Fashion 2 Pieces Suit",
+    "price": 77,
+    "aliexpressPrice": 10.18,
+    "originalPrice": 128,
+    "salePrice": 77,
+    "shippingBuffer": 21.7,
+    "category": "tops",
+    "subCategory": "tops",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "A",
+        "images": [
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-1.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-2.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-3.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-4.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-5.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-6.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-7.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-8.jpg"
+        ]
+      },
+      {
+        "name": "B",
+        "images": [
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-1.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-2.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-3.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-4.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-5.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-6.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-7.jpg",
+          "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-8.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-1.jpg",
+      "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-2.jpg",
+      "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-3.jpg",
+      "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-4.jpg",
+      "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-5.jpg",
+      "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-6.jpg",
+      "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-7.jpg",
+      "images/elegant-tube-tops-women-s-pants-sets-backless-top-wide-leg-t-8.jpg"
+    ],
+    "caption": "Exuding a sleek, modern allure tailored for Riviera evenings, this sophisticated two-piece set features a strapless tube top and flowing wide-leg trousers. Designed in a minimalist, clean-lined silhouette, it transitions effortlessly from twilight cocktails to dinner in the city.",
+    "description": [
+      "Sleek two-piece tube top and wide-leg pants set",
+      "Minimalist backless strapless tube top",
+      "Elegant high-waisted wide-leg trousers",
+      "Crafted from fluid, structured stretch knit fabric",
+      "Perfect for sophisticated Riviera evenings and high-street style"
+    ],
+    "materials": "100% Polyester",
+    "care": "Dry clean recommended, or machine wash cold on gentle cycle. Hang to dry.",
+    "fabricContent": "100% Polyester",
+    "fabricEstimated": true,
+    "details": [
+      "Sleek two-piece tube top and wide-leg pants set",
+      "Minimalist backless strapless tube top",
+      "Elegant high-waisted wide-leg trousers",
+      "Crafted from fluid, structured stretch knit fabric",
+      "Perfect for sophisticated Riviera evenings and high-street style"
+    ],
+    "careInstructions": "Dry clean recommended, or machine wash cold on gentle cycle. Hang to dry.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256808997754821.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Juliette Set"
+  },
+  {
+    "id": "capucine-trouser",
+    "name": "Elegant Cotton Linen Baggy Pants Fashion Women High Waist Drawstring Pocket Loose Wide Leg Pant Casual Streetwear New Trousers",
+    "price": 23,
+    "aliexpressPrice": 4.79,
+    "originalPrice": 39,
+    "salePrice": 23,
+    "shippingBuffer": 5,
+    "category": "pants",
+    "subCategory": "pants",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "black",
+        "images": [
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-1.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-2.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-3.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-4.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-5.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-6.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-7.jpg"
+        ]
+      },
+      {
+        "name": "WHITE",
+        "images": [
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-1.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-2.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-3.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-4.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-5.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-6.jpg",
+          "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-1.jpg",
+      "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-2.jpg",
+      "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-3.jpg",
+      "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-4.jpg",
+      "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-5.jpg",
+      "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-6.jpg",
+      "images/elegant-cotton-linen-baggy-pants-fashion-women-high-waist-dr-7.jpg"
+    ],
+    "caption": "Capturing the effortless charm of a Provençal market day, these relaxed cotton-linen wide-leg trousers feature a high-waisted drawstring design. Their loose, breathable fit and practical pockets make them a summer staple for casual streetwear or relaxed afternoons.",
+    "description": [
+      "Elegant cotton linen blend fabric",
+      "Flattering high-waisted design with drawstring closure",
+      "Practical side pockets",
+      "Comfortable and breezy loose baggy fit",
+      "Wide-leg trousers suitable for office or casual wear"
+    ],
+    "materials": "Cotton Linen Blend",
+    "care": "Hand wash cold, or machine wash on gentle cycle. Hang or line dry. Warm iron if needed.",
+    "fabricContent": "Cotton Linen Blend",
+    "fabricEstimated": true,
+    "details": [
+      "Elegant cotton linen blend fabric",
+      "Flattering high-waisted design with drawstring closure",
+      "Practical side pockets",
+      "Comfortable and breezy loose baggy fit",
+      "Wide-leg trousers suitable for office or casual wear"
+    ],
+    "careInstructions": "Hand wash cold, or machine wash on gentle cycle. Hang or line dry. Warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256809153577553.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Capucine Trouser"
+  },
+  {
+    "id": "mathilde-dress",
+    "name": "Foridol White Women Sundress Backless Sexy Casual Beach Vestidos Maxi Long A-line Fashion Holiday New Dress",
+    "price": 54,
+    "aliexpressPrice": 17.98,
+    "originalPrice": 90,
+    "salePrice": 54,
+    "shippingBuffer": 4.52,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "WHITE",
+        "images": [
+          "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-1.jpg",
+          "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-2.jpg",
+          "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-3.jpg",
+          "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-4.jpg",
+          "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-5.jpg",
+          "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-6.jpg",
+          "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-1.jpg",
+      "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-2.jpg",
+      "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-3.jpg",
+      "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-4.jpg",
+      "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-5.jpg",
+      "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-6.jpg",
+      "images/foridol-white-women-sundress-backless-sexy-casual-beach-vest-7.jpg"
+    ],
+    "caption": "Radiating a pure, romantic elegance suitable for a summer wedding guest, this white backless maxi dress features a flattering A-line silhouette. Its flowing drape and delicate straps create an ethereal look that captures the magic of sun-drenched holiday evenings.",
+    "description": [
+      "Romantic solid white maxi dress",
+      "Seductive backless design",
+      "Flattering A-line silhouette",
+      "Delicate spaghetti straps",
+      "Perfect for summer holidays and wedding guests"
+    ],
+    "materials": "100% Polyester",
+    "care": "Hand wash cold. Lay flat to dry. Cool iron if needed.",
+    "fabricContent": "100% Polyester",
+    "fabricEstimated": true,
+    "details": [
+      "Romantic solid white maxi dress",
+      "Seductive backless design",
+      "Flattering A-line silhouette",
+      "Delicate spaghetti straps",
+      "Perfect for summer holidays and wedding guests"
+    ],
+    "careInstructions": "Hand wash cold. Lay flat to dry. Cool iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256805367366061.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Mathilde Dress"
   }
 ]
