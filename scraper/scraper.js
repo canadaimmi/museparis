@@ -474,7 +474,7 @@ async function run() {
       const shippingBuffer = shippingCost > 0 ? shippingCost : 5;
       const adjusted = aliexpressPrice + shippingBuffer;
       const originalPrice = Math.round(adjusted * 4);
-      const salePrice = Math.round(originalPrice * 0.60);
+      const salePrice = Math.round(originalPrice * 0.70);
 
       const product = {
         id,
