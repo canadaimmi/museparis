@@ -134,6 +134,15 @@ function initNav() {
     closeBtn.addEventListener('click', () => overlay.classList.remove('open'));
   }
 
+  const mobileShopBtn = document.getElementById('mobileShopBtn');
+  const mobileShopPanel = document.getElementById('mobileShopPanel');
+  if (mobileShopBtn && mobileShopPanel) {
+    mobileShopBtn.addEventListener('click', () => {
+      mobileShopPanel.classList.toggle('open');
+      mobileShopBtn.textContent = mobileShopPanel.classList.contains('open') ? 'Shop ▴' : 'Shop ▾';
+    });
+  }
+
   const cartBtn = document.getElementById('cartBtn');
   const cartSidebar = document.getElementById('cartSidebar');
   const cartOverlay = document.getElementById('cartOverlay');
@@ -219,7 +228,8 @@ function categoryLabel(cat) {
     'new-in': 'New In', 'best-sellers': 'Best Sellers', 'last-chance': 'Last Chance',
     'tops': 'Tops', 'dresses': 'Dresses', 'knitwear': 'Knitwear', 'jackets': 'Jackets & Coats',
     'pants': 'Pants', 'skirts': 'Skirts & Shorts', 'denim': 'Denim', 'swimwear': 'Swimwear',
-    'bags': 'Bags', 'shoes': 'Shoes', 'jewelry': 'Jewelry', 'accessories': 'Accessories'
+    'bags': 'Bags', 'shoes': 'Shoes', 'jewelry': 'Jewelry', 'accessories': 'Accessories',
+    'activewear': 'Activewear'
   };
   return map[cat] || cat;
 }
@@ -232,28 +242,35 @@ function initCategoryPage() {
 
   const params = new URLSearchParams(window.location.search);
   const cat = params.get('cat') || 'new-in';
+  const subcat = params.get('subcat');
 
-  document.getElementById('catLabel').textContent = categoryLabel(cat);
-  document.getElementById('categoryTitle').textContent = categoryLabel(cat);
-  document.title = `${categoryLabel(cat)} — Muse Paris`;
+  const displayTitle = subcat ? `${categoryLabel(cat)} — ${subcat.charAt(0).toUpperCase() + subcat.slice(1).replace(/-/g, ' ')}` : categoryLabel(cat);
+  document.getElementById('catLabel').textContent = displayTitle;
+  document.getElementById('categoryTitle').textContent = displayTitle;
+  document.title = `${displayTitle} — Muse Paris`;
 
   fetchProducts().then(products => {
-    const matched = products.filter(p => categoryMatches(p, cat));
+    let matched = products.filter(p => categoryMatches(p, cat));
 
-    // sub-category strip
+    // sub-category strip (computed from full category match)
     const subcats = [...new Set(matched.map(p => p.subCategory).filter(Boolean))];
     const strip = document.getElementById('subcatStrip');
     if (subcats.length) {
       strip.innerHTML = subcats.map((sc, i) => {
         const sample = matched.find(p => p.subCategory === sc);
+        const isActive = subcat ? (sc === subcat) : false;
         return `
-          <a href="category.html?cat=${cat}" class="subcat-card ${i === 0 ? 'active' : ''}">
+          <a href="category.html?cat=${cat}&subcat=${sc}" class="subcat-card ${isActive ? 'active' : ''}">
             <div class="img-box bg-placeholder" style="background-image:url('${sample.images[0]}')"></div>
             <p class="name">${sc.replace(/-/g, ' ')}</p>
           </a>`;
       }).join('');
     } else {
       strip.innerHTML = '';
+    }
+
+    if (subcat) {
+      matched = matched.filter(p => p.subCategory === subcat);
     }
 
     // alternating rhythm rows: 3, 2, 3, 2...
