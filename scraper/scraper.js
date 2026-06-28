@@ -88,7 +88,23 @@ function getItemType(product) {
     if (title.includes('hat')) return 'Hat';
     return 'Accessory';
   }
-  
+
+  if (category === 'skirts') {
+    if (title.includes('set') || subCategory.includes('sets')) return 'Set';
+    return 'Skirt';
+  }
+
+  if (category === 'activewear') {
+    if (title.includes('set') || subCategory.includes('set')) return 'Set';
+    return 'Jumpsuit';
+  }
+
+  if (category === 'swimwear') {
+    if (title.includes('cover') || subCategory.includes('cover')) return 'Cover-up';
+    return 'Swimsuit';
+  }
+
+  return 'Set';
 }
 
 function extractFabric(title, materialsText) {
@@ -203,6 +219,41 @@ function appendProduct(product) {
 async function scrapeProduct(page, url) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   
+  // Check for captcha page and loop-wait if detected
+  while (true) {
+    const currentUrl = page.url();
+    const hasCaptchaText = await page.evaluate(() => {
+      return document.body.innerText.includes('check if you are a robot') || 
+             document.body.innerText.includes('Verification');
+    }).catch(() => false);
+
+    if (currentUrl.includes('punish') || hasCaptchaText) {
+      console.log(`\n=============================================================`);
+      console.log(`[CAPTCHA DETECTED] Bot challenge page active for: ${url}`);
+      console.log(`>>> PLEASE SOLVE THE SLIDER CAPTCHA IN THE BROWSER WINDOW <<<`);
+      console.log(`=============================================================\n`);
+      await new Promise(r => setTimeout(r, 4000));
+      continue;
+    }
+    
+    // Check if page has product content/title loaded
+    const titleText = await page.evaluate(() => {
+      const h1 = document.querySelector('h1');
+      if (h1 && h1.textContent.trim() !== 'Aliexpress') return h1.textContent.trim();
+      const titleEl = document.querySelector('[class*="title--wrap"], [class*="product-title"]');
+      if (titleEl) return titleEl.textContent.trim();
+      return '';
+    }).catch(() => '');
+    
+    if (titleText) {
+      console.log(`Page content detected ("${titleText.slice(0, 40)}...")! Proceeding to scrape...`);
+      break;
+    }
+    
+    console.log('Waiting for product page content to load...');
+    await new Promise(r => setTimeout(r, 2000));
+  }
+
   console.log('Waiting 10 seconds for initial content to load...');
   await new Promise(r => setTimeout(r, 10000));
 
@@ -271,7 +322,15 @@ async function scrapeProduct(page, url) {
   } else {
     for (let i = 0; i < swatches.length; i++) {
       console.log(`Selecting color swatch ${i + 1} of ${swatches.length}...`);
-      await swatches[i].click();
+      await page.evaluate((idx) => {
+        const els = document.querySelectorAll('[class*="sku-item--image"]');
+        if (els[idx]) {
+          els[idx].click();
+        } else {
+          const items = document.querySelectorAll('[class*="sku-item"]');
+          if (items[idx]) items[idx].click();
+        }
+      }, i).catch(() => {});
       await new Promise(r => setTimeout(r, 3000));
       
       const colorName = await page.evaluate(() => {
@@ -342,6 +401,53 @@ async function generateCaption(title, description) {
   }
 }
 
+async function evaluateImageVision(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) return true;
+    const imageBuffer = fs.readFileSync(filePath);
+    const base64Data = imageBuffer.toString('base64');
+
+    const response = await anthropic.messages.create({
+      model: 'claude-sonnet-4-6',
+      max_tokens: 150,
+      messages: [
+        {
+          role: 'user',
+          content: [
+            {
+              type: 'image',
+              source: {
+                type: 'base64',
+                media_type: 'image/jpeg',
+                data: base64Data
+              }
+            },
+            {
+              type: 'text',
+              text: 'Does this fashion product photo show clothing on a human model (not a mannequin, hanger, or flat lay)? Is there any text, logo, watermark, or branding overlaid on the photo? Answer with JSON: {"humanModel": true/false, "hasBranding": true/false}'
+            }
+          ]
+        }
+      ]
+    });
+
+    const text = response.content[0].text;
+    console.log(`[Vision API Response] for ${path.basename(filePath)}: ${text}`);
+
+    const match = text.match(/\{[\s\S]*?\}/);
+    if (match) {
+      const data = JSON.parse(match[0]);
+      if (data.humanModel === false || data.hasBranding === true) {
+        return false;
+      }
+    }
+    return true;
+  } catch (err) {
+    console.log(`[Vision API Error] for ${path.basename(filePath)}: ${err.message}. Passing image by default.`);
+    return true;
+  }
+}
+
 async function downloadProductImages(imageUrls, productId) {
   if (!imageUrls || imageUrls.length === 0) return {};
   if (!fs.existsSync(IMAGES_DIR)) fs.mkdirSync(IMAGES_DIR, { recursive: true });
@@ -401,9 +507,16 @@ async function downloadProductImages(imageUrls, productId) {
               console.log(`REMOVED: ${filename} — not a clothing photo (landscape orientation: ${dimensions.width}x${dimensions.height})`);
               fs.unlinkSync(dest);
             } else {
-              console.log(`KEPT: ${filename} (dimensions: ${dimensions.width}x${dimensions.height})`);
-              urlMap[imageUrl] = `images/${filename}`;
-              savedIndex++;
+              // Rule 4: Run Claude Vision filter for mannequin/branding
+              const passed = await evaluateImageVision(dest);
+              if (!passed) {
+                console.log(`REMOVED: ${filename} — failed mannequin/branding vision check`);
+                fs.unlinkSync(dest);
+              } else {
+                console.log(`KEPT: ${filename} (dimensions: ${dimensions.width}x${dimensions.height}, passed vision check)`);
+                urlMap[imageUrl] = `images/${filename}`;
+                savedIndex++;
+              }
             }
           } catch (dimErr) {
             console.log(`KEPT: ${filename} (dimensions check failed: ${dimErr.message})`);
@@ -448,8 +561,12 @@ async function run() {
     browser = await puppeteer.connect({ browserURL: 'http://127.0.0.1:9222' });
     console.log('Connected to existing browser successfully.');
   } catch (err) {
-    console.log('Could not connect to port 9222, launching fresh browser...', err.message);
-    browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+    console.log('Could not connect to port 9222, launching fresh headful browser with profile...', err.message);
+    browser = await puppeteer.launch({ 
+      headless: false, 
+      userDataDir: path.join(__dirname, 'puppeteer_profile'),
+      args: ['--no-sandbox', '--disable-setuid-sandbox'] 
+    });
   }
 
   const page = await browser.newPage();
@@ -458,7 +575,44 @@ async function run() {
   for (const url of urls) {
     try {
       const scraped = await scrapeProduct(page, url);
-      const { category, isClothing } = categorize(scraped.title);
+      let { category, isClothing } = categorize(scraped.title);
+      let subCategory = category;
+
+      // URL overrides
+      if (url.includes('3256808562322937') || url.includes('3256804092511539') || url.includes('3256806737052960')) {
+        category = 'accessories';
+        subCategory = 'hats';
+        isClothing = false;
+      } else if (url.includes('3256806766553611')) {
+        category = 'skirts';
+        subCategory = 'sets';
+        isClothing = true;
+      } else if (url.includes('3256808190923600')) {
+        category = 'tops';
+        subCategory = 'tops';
+        isClothing = true;
+      } else if (url.includes('3256807998136838')) {
+        category = 'activewear';
+        subCategory = 'activewear';
+        isClothing = true;
+      } else if (url.includes('3256807831115430')) {
+        category = 'swimwear';
+        subCategory = 'cover-ups';
+        isClothing = true;
+      } else if (url.includes('3256810253146385') || url.includes('3256808535074921')) {
+        category = 'tops';
+        subCategory = 'tops';
+        isClothing = true;
+      } else if (url.includes('3256809221878203')) {
+        category = 'accessories';
+        subCategory = 'shoes';
+        isClothing = false;
+      } else if (url.includes('3256808207671503') || url.includes('3256810341282697') || url.includes('3256809393372041')) {
+        category = 'skirts';
+        subCategory = 'sets';
+        isClothing = true;
+      }
+
       const id = slugify(scraped.title);
       const caption = await generateCaption(scraped.title, scraped.description);
 
@@ -484,7 +638,7 @@ async function run() {
         salePrice,
         shippingBuffer,
         category,
-        subCategory: category,
+        subCategory,
         isClothing,
         colours: scraped.colours,
         sizes: isClothing ? ['XS', 'S', 'M', 'L', 'XL'] : [],

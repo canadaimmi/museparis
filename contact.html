@@ -31,7 +31,7 @@
     <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">☰</button>
     <a href="index.html" class="nav-logo"><img src="webmuse/muse_paris_logo.png" alt="Muse Paris"></a>
     <nav class="nav-links">
-      <div class="nav-item-shop" style="position:relative;">
+      <div class="nav-item-shop">
         <a href="collection.html">Shop</a>
         <div class="shop-dropdown">
           <div class="dropdown-col">
@@ -50,31 +50,10 @@
           <div class="dropdown-col">
             <h4>Accessories</h4>
             <a href="category.html?cat=bags">Bags</a>
-            <a href="category.html?cat=shoes">Shoes</a>
+            <a href="category.html?cat=accessories&subcat=hats">Hats</a>
+            <a href="category.html?cat=accessories&subcat=shoes">Shoes</a>
             <a href="category.html?cat=jewelry">Jewelry</a>
             <a href="category.html?cat=accessories">View all</a>
-          </div>
-          <div class="dropdown-images">
-            <a href="category.html?cat=new-in" class="dropdown-img-card">
-              <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=600&auto=format&fit=crop')"></div>
-              <p class="label">New In</p>
-              <p class="sub">Fresh arrivals</p>
-            </a>
-            <a href="category.html?cat=accessories" class="dropdown-img-card">
-              <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=600&auto=format&fit=crop')"></div>
-              <p class="label">Accessories</p>
-              <p class="sub">Bags &amp; Jewellery</p>
-            </a>
-            <a href="about.html" class="dropdown-img-card">
-              <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=600&auto=format&fit=crop')"></div>
-              <p class="label">Home &amp; Lifestyle</p>
-              <p class="sub">Curated living</p>
-            </a>
-            <a href="contact.html" class="dropdown-img-card">
-              <div class="img-box bg-placeholder" style="background-image:url('https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=600&auto=format&fit=crop')"></div>
-              <p class="label">Gift Ideas</p>
-              <p class="sub">For someone special</p>
-            </a>
           </div>
         </div>
       </div>
@@ -95,7 +74,32 @@
 
 <div class="mobile-nav-overlay" id="mobileNavOverlay">
   <button class="mobile-nav-close" id="mobileNavClose">×</button>
-  <a href="collection.html">Shop</a>
+  <div class="mobile-accordion">
+    <button class="mobile-accordion-btn" id="mobileShopBtn">Shop ▾</button>
+    <div class="mobile-accordion-panel" id="mobileShopPanel">
+      <div class="mobile-accordion-section">
+        <h5>Ready-to-Wear</h5>
+        <a href="category.html?cat=new-in" class="amber-link">New in</a>
+        <a href="category.html?cat=best-sellers" class="amber-link">Best sellers</a>
+        <a href="category.html?cat=tops">Tops</a>
+        <a href="category.html?cat=dresses">Dresses</a>
+        <a href="category.html?cat=knitwear">Knitwear</a>
+        <a href="category.html?cat=jackets">Jackets &amp; Coats</a>
+        <a href="category.html?cat=pants">Pants</a>
+        <a href="category.html?cat=skirts">Skirts &amp; Shorts</a>
+        <a href="category.html?cat=denim">Denim</a>
+        <a href="category.html?cat=swimwear">Swimwear</a>
+      </div>
+      <div class="mobile-accordion-section">
+        <h5>Accessories</h5>
+        <a href="category.html?cat=bags">Bags</a>
+        <a href="category.html?cat=accessories&subcat=hats">Hats</a>
+        <a href="category.html?cat=accessories&subcat=shoes">Shoes</a>
+        <a href="category.html?cat=jewelry">Jewelry</a>
+        <a href="category.html?cat=accessories">View all</a>
+      </div>
+    </div>
+  </div>
   <a href="category.html?cat=new-in">New In</a>
   <a href="collection.html">Archives</a>
   <a href="category.html?cat=best-sellers">Best Sellers</a>
