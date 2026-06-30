@@ -129,8 +129,17 @@ img { display: block; max-width: 100%; }
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
 }
 
-.nav-item-shop:hover .shop-dropdown,
-.shop-dropdown:hover {
+.shop-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: transparent;
+}
+
+.shop-dropdown.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);

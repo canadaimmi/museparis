@@ -124,6 +124,26 @@ const Cart = {
 };
 
 function initNav() {
+  const shopTrigger = document.querySelector('.nav-item-shop');
+  const shopDropdown = document.querySelector('.shop-dropdown');
+  if (shopTrigger && shopDropdown) {
+    let timeoutId = null;
+    const showMenu = () => {
+      clearTimeout(timeoutId);
+      shopDropdown.classList.add('active');
+    };
+    const hideMenu = () => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => {
+        shopDropdown.classList.remove('active');
+      }, 250);
+    };
+    shopTrigger.addEventListener('mouseenter', showMenu);
+    shopTrigger.addEventListener('mouseleave', hideMenu);
+    shopTrigger.addEventListener('focusin', showMenu);
+    shopTrigger.addEventListener('focusout', hideMenu);
+  }
+
   const hamburger = document.getElementById('hamburgerBtn');
   const overlay = document.getElementById('mobileNavOverlay');
   const closeBtn = document.getElementById('mobileNavClose');
