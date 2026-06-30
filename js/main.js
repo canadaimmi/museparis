@@ -240,14 +240,16 @@ function categoryMatches(product, cat) {
   if (cat === 'new-in') return product.tags?.includes('new');
   if (cat === 'best-sellers') return product.tags?.includes('best-seller');
   if (cat === 'last-chance') return !!product.originalPrice;
-  return product.category === cat;
+  if (cat === 'sets') return product.category === 'sets' || product.subCategory === 'sets';
+  return product.category === cat || (product.secondaryCategories || []).includes(cat);
 }
 
 function categoryLabel(cat) {
   const map = {
     'new-in': 'New In', 'best-sellers': 'Best Sellers', 'last-chance': 'Last Chance',
     'tops': 'Tops', 'dresses': 'Dresses', 'knitwear': 'Knitwear', 'jackets': 'Jackets & Coats',
-    'pants': 'Pants', 'skirts': 'Skirts & Shorts', 'denim': 'Denim', 'swimwear': 'Swimwear',
+    'pants': 'Pants', 'skirts': 'Skirts & Shorts', 'sets': 'Sets', 'denim': 'Denim',
+    'swimwear': 'Swimwear', 'jumpsuits': 'Jumpsuits',
     'bags': 'Bags', 'shoes': 'Shoes', 'jewelry': 'Jewelry', 'accessories': 'Accessories',
     'activewear': 'Activewear'
   };

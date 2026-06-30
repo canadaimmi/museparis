@@ -4975,7 +4975,11 @@
     "tags": [
       "new"
     ],
-    "displayName": "Blanche Set"
+    "displayName": "Blanche Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
   },
   {
     "id": "lightweight-long-sleeve-bohemia-lace-blouse-shirts-for-women",
@@ -8474,7 +8478,11 @@
     "tags": [
       "new"
     ],
-    "displayName": "Adèle Set"
+    "displayName": "Adèle Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
   },
   {
     "id": "bornladies-cotton-chic-casual-vest-mini-skirt-set-women-s-fa",
@@ -8566,7 +8574,11 @@
     "tags": [
       "new"
     ],
-    "displayName": "Marine Set"
+    "displayName": "Marine Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
   },
   {
     "id": "tornova-sexy-suspender-vest-short-skirt-suit-for-women-casua",
@@ -8628,7 +8640,11 @@
     "tags": [
       "new"
     ],
-    "displayName": "Séraphine Set"
+    "displayName": "Séraphine Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
   },
   {
     "id": "skinny-sexy-deep-v-neck-sleeveless-mini-dresses-for-summer-w",
@@ -9009,5 +9025,3065 @@
       "new"
     ],
     "displayName": "Lucille Dress"
+  },
+  {
+    "id": "women-casual-long-sleeve-satin-skirt-outfits-fashion-draped-",
+    "name": "Women Casual Long Sleeve Satin Skirt Outfits Fashion Draped Solid 2Pc Outfits Elegant V-neck Pullover Knitted & Long Dress Suit",
+    "price": 30,
+    "aliexpressPrice": 12.21,
+    "originalPrice": 43,
+    "salePrice": 30,
+    "shippingBuffer": 5,
+    "category": "skirts",
+    "subCategory": "sets",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "14 Black sweater",
+        "images": []
+      },
+      {
+        "name": "01 Suit 1",
+        "images": []
+      },
+      {
+        "name": "02 Suit 2",
+        "images": []
+      },
+      {
+        "name": "03 Suit 3",
+        "images": []
+      },
+      {
+        "name": "04 Suit 4",
+        "images": []
+      },
+      {
+        "name": "05 Suit 5",
+        "images": []
+      },
+      {
+        "name": "06 Suit 6",
+        "images": []
+      },
+      {
+        "name": "07 Inner skirt 1",
+        "images": []
+      },
+      {
+        "name": "08 Inner skirt 2",
+        "images": []
+      },
+      {
+        "name": "09 Inner skirt 3",
+        "images": []
+      },
+      {
+        "name": "10 Inner skirt 4",
+        "images": []
+      },
+      {
+        "name": "11 Inner skirt 5",
+        "images": []
+      },
+      {
+        "name": "12 Inner skirt 6",
+        "images": []
+      },
+      {
+        "name": "13 Apricot sweater",
+        "images": []
+      },
+      {
+        "name": "17 Pink sweater",
+        "images": []
+      },
+      {
+        "name": "15 Blue sweater",
+        "images": []
+      },
+      {
+        "name": "16 Grey sweater",
+        "images": []
+      },
+      {
+        "name": "18 Purple sweater",
+        "images": []
+      },
+      {
+        "name": "19 Burgundy sweater",
+        "images": []
+      },
+      {
+        "name": "20 Dark blue sweater",
+        "images": []
+      },
+      {
+        "name": "21 Green sweater",
+        "images": []
+      },
+      {
+        "name": "22 Green Suit",
+        "images": []
+      },
+      {
+        "name": "23 Burgundy Suit",
+        "images": []
+      },
+      {
+        "name": "24 Dark blue Suit",
+        "images": []
+      },
+      {
+        "name": "25 Green Dress",
+        "images": []
+      },
+      {
+        "name": "27 Dark blue Dress",
+        "images": []
+      },
+      {
+        "name": "26 Burgundy Dress",
+        "images": []
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--1.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--2.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--3.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--4.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--5.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--6.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--7.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--8.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--9.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--10.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--11.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--12.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--13.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--14.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--15.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--16.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--17.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--18.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--19.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--20.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--21.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--22.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--23.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--24.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--25.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--26.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--27.jpg",
+      "images/women-casual-long-sleeve-satin-skirt-outfits-fashion-draped--28.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811670285779.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Madeleine Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
+  },
+  {
+    "id": "y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery",
+    "name": "Y2K Women Tie Side Tank Tops Sleeveless Crew Neck Embroidery Floral Loose Fit Cropped Tops Summer Cute Going Out Vest Shirt",
+    "price": 44,
+    "aliexpressPrice": 20.23,
+    "originalPrice": 63,
+    "salePrice": 44,
+    "shippingBuffer": 5,
+    "category": "tops",
+    "subCategory": "tops",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "WHITE",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "black",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "Blue",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "green",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "army green",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "Pink",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "Red",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "YELLOW",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "Ginger",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      },
+      {
+        "name": "Maroon",
+        "images": [
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+          "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-1.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-2.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-3.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-4.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-5.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-6.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-7.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-8.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-9.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-10.jpg",
+      "images/y2k-women-tie-side-tank-tops-sleeveless-crew-neck-embroidery-11.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Soft touch sleeveless silhouette",
+      "Perfect for layering under blazers",
+      "Comfortable and breathable fit",
+      "Versatile addition to your basics rotation"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256809262479619.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Nicolette Top"
+  },
+  {
+    "id": "2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor",
+    "name": "2026 New Vintage Beach Style Mid-Length Dress - Sleeveless, Corseted, Straps, Backless with Polka Dots",
+    "price": 43,
+    "aliexpressPrice": 19.89,
+    "originalPrice": 62,
+    "salePrice": 43,
+    "shippingBuffer": 5,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Black",
+        "images": [
+          "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-1.jpg",
+          "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-2.jpg",
+          "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-3.jpg",
+          "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-4.jpg",
+          "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-5.jpg",
+          "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-1.jpg",
+      "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-2.jpg",
+      "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-3.jpg",
+      "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-4.jpg",
+      "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-5.jpg",
+      "images/2026-new-vintage-beach-style-mid-length-dress-sleeveless-cor-6.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811662226101.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Ophélie Dress"
+  },
+  {
+    "id": "women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre",
+    "name": "Women Backless Babydoll Dress Jacquard Eyelet Ruffle Hem Dress Vintage Lace Square Neck Frill Bust High Waist A-Line Sundress",
+    "price": 39,
+    "aliexpressPrice": 17.54,
+    "originalPrice": 56,
+    "salePrice": 39,
+    "shippingBuffer": 5,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "WHITE",
+        "images": [
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-1.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-2.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-3.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-4.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-5.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-6.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-7.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-8.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-9.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-10.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-11.jpg"
+        ]
+      },
+      {
+        "name": "black",
+        "images": [
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-1.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-2.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-3.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-4.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-5.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-6.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-7.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-8.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-9.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-10.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-11.jpg"
+        ]
+      },
+      {
+        "name": "SKY BLUE",
+        "images": [
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-1.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-2.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-3.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-4.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-5.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-6.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-7.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-8.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-9.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-10.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-11.jpg"
+        ]
+      },
+      {
+        "name": "Pink",
+        "images": [
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-1.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-2.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-3.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-4.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-5.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-6.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-7.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-8.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-9.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-10.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-11.jpg"
+        ]
+      },
+      {
+        "name": "YELLOW",
+        "images": [
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-1.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-2.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-3.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-4.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-5.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-6.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-7.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-8.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-9.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-10.jpg",
+          "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-11.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-1.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-2.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-3.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-4.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-5.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-6.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-7.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-8.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-9.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-10.jpg",
+      "images/women-backless-babydoll-dress-jacquard-eyelet-ruffle-hem-dre-11.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256807307212044.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Pascale Dress"
+  },
+  {
+    "id": "women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita",
+    "name": "Women's striped tight sleeveless spaghetti strap dress, suitable for summer vacation music festivals, Bohemian style clothing",
+    "price": 34,
+    "aliexpressPrice": 14.72,
+    "originalPrice": 49,
+    "salePrice": 34,
+    "shippingBuffer": 5,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Ivory",
+        "images": [
+          "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-1.jpg",
+          "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-2.jpg",
+          "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-3.jpg",
+          "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-4.jpg",
+          "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-5.jpg",
+          "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-1.jpg",
+      "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-2.jpg",
+      "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-3.jpg",
+      "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-4.jpg",
+      "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-5.jpg",
+      "images/women-s-striped-tight-sleeveless-spaghetti-strap-dress-suita-6.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811639226935.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Renée Dress"
+  },
+  {
+    "id": "fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee",
+    "name": "Fashionable Lady Floral Corset Maxi Dresses Halter Neck Sleeveless Flowy Long Dress Female Beach Vacation Party Evening Gown",
+    "price": 78,
+    "aliexpressPrice": 39.5,
+    "originalPrice": 111,
+    "salePrice": 78,
+    "shippingBuffer": 5,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Mixed Color",
+        "images": [
+          "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-1.jpg",
+          "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-2.jpg",
+          "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-3.jpg",
+          "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-4.jpg",
+          "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-5.jpg",
+          "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-6.jpg",
+          "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-1.jpg",
+      "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-2.jpg",
+      "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-3.jpg",
+      "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-4.jpg",
+      "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-5.jpg",
+      "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-6.jpg",
+      "images/fashionable-lady-floral-corset-maxi-dresses-halter-neck-slee-7.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811808921302.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Solange Dress"
+  },
+  {
+    "id": "floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta",
+    "name": "Floral Print Halter Neck Tube Top Puffy Skirt Dress Comfortable Casual Short Sleeveless High Waist Polyester Fabric Summer 2025",
+    "price": 57,
+    "aliexpressPrice": 27.33,
+    "originalPrice": 81,
+    "salePrice": 57,
+    "shippingBuffer": 5,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "APRICOT",
+        "images": [
+          "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-1.jpg",
+          "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-2.jpg",
+          "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-3.jpg",
+          "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-4.jpg",
+          "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-5.jpg",
+          "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-6.jpg",
+          "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-1.jpg",
+      "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-2.jpg",
+      "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-3.jpg",
+      "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-4.jpg",
+      "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-5.jpg",
+      "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-6.jpg",
+      "images/floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta-7.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811699013421.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Thérèse Dress"
+  },
+  {
+    "id": "jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse",
+    "name": "JHJN 2-Piece Set Handmade Crochet Knitted Suit  Fashion Tassels leisure Short Top Suspenders Vacation Style Hollow Skirt",
+    "price": 52,
+    "aliexpressPrice": 24.4,
+    "originalPrice": 74,
+    "salePrice": 52,
+    "shippingBuffer": 5,
+    "category": "skirts",
+    "subCategory": "sets",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Beige",
+        "images": [
+          "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-1.jpg",
+          "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-2.jpg",
+          "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-3.jpg",
+          "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-4.jpg",
+          "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-5.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-1.jpg",
+      "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-2.jpg",
+      "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-3.jpg",
+      "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-4.jpg",
+      "images/jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse-5.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Soft touch sleeveless silhouette",
+      "Perfect for layering under blazers",
+      "Comfortable and breathable fit",
+      "Versatile addition to your basics rotation"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256809168485651.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Valentine Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
+  },
+  {
+    "id": "fashion-printed-strapless-maxi-dress-women-elegant-off-shoul",
+    "name": "Fashion Printed Strapless Maxi Dress Women Elegant Off Shoulder Backless Sleeveless High Waist Gown Summer New Lady Party Robes",
+    "price": 58,
+    "aliexpressPrice": 28.27,
+    "originalPrice": 83,
+    "salePrice": 58,
+    "shippingBuffer": 5,
+    "category": "dresses",
+    "subCategory": "dresses",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Picture Color",
+        "images": [
+          "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-1.jpg",
+          "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-2.jpg",
+          "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-3.jpg",
+          "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-4.jpg",
+          "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-5.jpg",
+          "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-6.jpg",
+          "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-1.jpg",
+      "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-2.jpg",
+      "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-3.jpg",
+      "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-4.jpg",
+      "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-5.jpg",
+      "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-6.jpg",
+      "images/fashion-printed-strapless-maxi-dress-women-elegant-off-shoul-7.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Cotton linen blend mini dress",
+      "Sleeveless halter vest silhouette",
+      "Daring open backless detail",
+      "Flared fluid skirt",
+      "Perfect for warm summer days or beach vacations"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256809036017038.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Yvette Dress"
+  },
+  {
+    "id": "fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l",
+    "name": "Fashion Women T-shirt Long Sleeve Crew Neck Solid Slim Fit Ladies Crop Top with Thumb Holes for Daily Streetwear Summer Camis",
+    "price": 15,
+    "aliexpressPrice": 3.77,
+    "originalPrice": 22,
+    "salePrice": 15,
+    "shippingBuffer": 5,
+    "category": "tops",
+    "subCategory": "tops",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Brown",
+        "images": [
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+        ]
+      },
+      {
+        "name": "black",
+        "images": [
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+        ]
+      },
+      {
+        "name": "Blue",
+        "images": [
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+        ]
+      },
+      {
+        "name": "green",
+        "images": [
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+        ]
+      },
+      {
+        "name": "Orange",
+        "images": [
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+        ]
+      },
+      {
+        "name": "Red",
+        "images": [
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+        ]
+      },
+      {
+        "name": "WHITE",
+        "images": [
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+        ]
+      },
+      {
+        "name": "Rose Red",
+        "images": [
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+          "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-1.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-2.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-3.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-4.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-5.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-6.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-7.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-8.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-9.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-10.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-11.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-12.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-13.jpg",
+      "images/fashion-women-t-shirt-long-sleeve-crew-neck-solid-slim-fit-l-14.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Soft touch sleeveless silhouette",
+      "Perfect for layering under blazers",
+      "Comfortable and breathable fit",
+      "Versatile addition to your basics rotation"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256805281734171.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Zoé Top"
+  },
+  {
+    "id": "casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn",
+    "name": "Casual Loose Mid-Waist Bell-Shaped Women's Jeans 2025 Autumn Street Style Cotton Polyester Blend Distressed Denim Jeans",
+    "price": 64,
+    "aliexpressPrice": 31.65,
+    "originalPrice": 92,
+    "salePrice": 64,
+    "shippingBuffer": 5,
+    "category": "pants",
+    "subCategory": "denim",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Leopard print on white background",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      },
+      {
+        "name": "black",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      },
+      {
+        "name": "Blue",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      },
+      {
+        "name": "Dark Grey",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      },
+      {
+        "name": "Black leopard-print",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      },
+      {
+        "name": "Caramel color",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      },
+      {
+        "name": "Leopord pattern",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      },
+      {
+        "name": "Ivory White",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      },
+      {
+        "name": "Light  Blue",
+        "images": [
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+          "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-1.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-2.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-3.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-4.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-5.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-6.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-7.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-8.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-9.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-10.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-11.jpg",
+      "images/casual-loose-mid-waist-bell-shaped-women-s-jeans-2025-autumn-12.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "100% Cotton",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811595903391.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Blanche Pant"
+  },
+  {
+    "id": "studded-denim-straight-pants-women-vintage-high-waist-hip-pa",
+    "name": "Studded Denim Straight Pants Women Vintage High Waist Hip Package Metal Rivets Trousers Jeans Early Spring Ladies Club Partywear",
+    "price": 47,
+    "aliexpressPrice": 21.69,
+    "originalPrice": 67,
+    "salePrice": 47,
+    "shippingBuffer": 5,
+    "category": "pants",
+    "subCategory": "denim",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Black and grey",
+        "images": [
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-1.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-2.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-3.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-4.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-5.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-6.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-7.jpg"
+        ]
+      },
+      {
+        "name": "blue",
+        "images": [
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-1.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-2.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-3.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-4.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-5.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-6.jpg",
+          "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-1.jpg",
+      "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-2.jpg",
+      "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-3.jpg",
+      "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-4.jpg",
+      "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-5.jpg",
+      "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-6.jpg",
+      "images/studded-denim-straight-pants-women-vintage-high-waist-hip-pa-7.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811389098049.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Estelle Pant"
+  },
+  {
+    "id": "willshela-women-fashion-with-pockets-solid-blazer-vintage-no",
+    "name": "Willshela Women Fashion With Pockets Solid Blazer Vintage Notched Neck Long Sleeves Female Chic Lady Outfits",
+    "price": 53,
+    "aliexpressPrice": 25.55,
+    "originalPrice": 76,
+    "salePrice": 53,
+    "shippingBuffer": 5,
+    "category": "jackets",
+    "subCategory": "jackets",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Green",
+        "images": [
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-1.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-2.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-3.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-4.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-5.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-6.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-7.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-8.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-9.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-10.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-11.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-12.jpg"
+        ]
+      },
+      {
+        "name": "Black",
+        "images": [
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-1.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-2.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-3.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-4.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-5.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-6.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-7.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-8.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-9.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-10.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-11.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-12.jpg"
+        ]
+      },
+      {
+        "name": "Grey",
+        "images": [
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-1.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-2.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-3.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-4.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-5.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-6.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-7.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-8.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-9.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-10.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-11.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-12.jpg"
+        ]
+      },
+      {
+        "name": "Khaki",
+        "images": [
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-1.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-2.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-3.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-4.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-5.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-6.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-7.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-8.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-9.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-10.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-11.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-12.jpg"
+        ]
+      },
+      {
+        "name": "White",
+        "images": [
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-1.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-2.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-3.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-4.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-5.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-6.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-7.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-8.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-9.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-10.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-11.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-12.jpg"
+        ]
+      },
+      {
+        "name": "NavyBlue",
+        "images": [
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-1.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-2.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-3.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-4.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-5.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-6.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-7.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-8.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-9.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-10.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-11.jpg",
+          "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-12.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-1.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-2.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-3.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-4.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-5.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-6.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-7.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-8.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-9.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-10.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-11.jpg",
+      "images/willshela-women-fashion-with-pockets-solid-blazer-vintage-no-12.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256807107210657.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Jacqueline Jacket",
+    "secondaryCategories": [
+      "tops"
+    ]
+  },
+  {
+    "id": "bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long",
+    "name": "Bronladies Cotton Linen Vest Pants Set Women's Wide Leg Long Pants Sleeveless Top Casual Suit 2025 Spring Summer New Pant Sets",
+    "price": 62,
+    "aliexpressPrice": 30.11,
+    "originalPrice": 88,
+    "salePrice": 62,
+    "shippingBuffer": 5,
+    "category": "skirts",
+    "subCategory": "sets",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Black",
+        "images": [
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-1.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-2.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-3.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-4.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-5.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-6.jpg"
+        ]
+      },
+      {
+        "name": "White",
+        "images": [
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-1.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-2.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-3.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-4.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-5.jpg",
+          "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-1.jpg",
+      "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-2.jpg",
+      "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-3.jpg",
+      "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-4.jpg",
+      "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-5.jpg",
+      "images/bronladies-cotton-linen-vest-pants-set-women-s-wide-leg-long-6.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Soft touch sleeveless silhouette",
+      "Perfect for layering under blazers",
+      "Comfortable and breathable fit",
+      "Versatile addition to your basics rotation"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256808231678201.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Lisette Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
+  },
+  {
+    "id": "solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc",
+    "name": "Solid Backless Womens Jumpsuit Solid Off Shoulder Waist Cinching Pockets Wide Leg Pants Lady Bodysuit Female vestidos para mujer",
+    "price": 32,
+    "aliexpressPrice": 13.35,
+    "originalPrice": 46,
+    "salePrice": 32,
+    "shippingBuffer": 5,
+    "category": "jumpsuits",
+    "subCategory": "jumpsuits",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Black",
+        "images": [
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-1.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-2.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-3.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-4.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-5.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-6.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-7.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-8.jpg"
+        ]
+      },
+      {
+        "name": "Navy",
+        "images": [
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-1.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-2.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-3.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-4.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-5.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-6.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-7.jpg",
+          "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-8.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-1.jpg",
+      "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-2.jpg",
+      "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-3.jpg",
+      "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-4.jpg",
+      "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-5.jpg",
+      "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-6.jpg",
+      "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-7.jpg",
+      "images/solid-backless-womens-jumpsuit-solid-off-shoulder-waist-cinc-8.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256808983738891.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Mirabelle Jumpsuit"
+  },
+  {
+    "id": "elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe",
+    "name": "Elegant Women's Strapless Wide Leg Jumpsuit For Spring Summer Solid Color High Waisted Casual Pants Pocket Jumpsuit",
+    "price": 28,
+    "aliexpressPrice": 11.06,
+    "originalPrice": 40,
+    "salePrice": 28,
+    "shippingBuffer": 5,
+    "category": "jumpsuits",
+    "subCategory": "jumpsuits",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Khaki",
+        "images": [
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-1.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-2.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-3.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-4.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-5.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-6.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-7.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-8.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-9.jpg"
+        ]
+      },
+      {
+        "name": "black",
+        "images": [
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-1.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-2.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-3.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-4.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-5.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-6.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-7.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-8.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-9.jpg"
+        ]
+      },
+      {
+        "name": "APRICOT",
+        "images": [
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-1.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-2.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-3.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-4.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-5.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-6.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-7.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-8.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-9.jpg"
+        ]
+      },
+      {
+        "name": "ROYAL BLUE",
+        "images": [
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-1.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-2.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-3.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-4.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-5.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-6.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-7.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-8.jpg",
+          "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-9.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-1.jpg",
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-2.jpg",
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-3.jpg",
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-4.jpg",
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-5.jpg",
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-6.jpg",
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-7.jpg",
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-8.jpg",
+      "images/elegant-women-s-strapless-wide-leg-jumpsuit-for-spring-summe-9.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256808907428448.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Cosette Jumpsuit"
+  },
+  {
+    "id": "2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s",
+    "name": "2025 New Women Linen Cotton Chic Vest ＆ Pants Suit Two-Piece Set Office Ladies Summer Chic 2 Piece Sets Women's Outfits",
+    "price": 53,
+    "aliexpressPrice": 25.4,
+    "originalPrice": 76,
+    "salePrice": 53,
+    "shippingBuffer": 5,
+    "category": "skirts",
+    "subCategory": "sets",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "White Set",
+        "images": [
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-1.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-2.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-3.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-4.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-5.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-6.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-7.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-8.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-9.jpg"
+        ]
+      },
+      {
+        "name": "Khaki Set",
+        "images": [
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-1.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-2.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-3.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-4.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-5.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-6.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-7.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-8.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-9.jpg"
+        ]
+      },
+      {
+        "name": "Black Set",
+        "images": [
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-1.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-2.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-3.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-4.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-5.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-6.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-7.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-8.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-9.jpg"
+        ]
+      },
+      {
+        "name": "Orange Set",
+        "images": [
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-1.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-2.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-3.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-4.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-5.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-6.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-7.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-8.jpg",
+          "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-9.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-1.jpg",
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-2.jpg",
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-3.jpg",
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-4.jpg",
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-5.jpg",
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-6.jpg",
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-7.jpg",
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-8.jpg",
+      "images/2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s-9.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256808998745543.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Elise Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
+  },
+  {
+    "id": "bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy",
+    "name": "Bornladies Cotton Casual Pants Sets Women's Solid Color Cozy Lapel Long Sleeve Shirt Summer Outfit Elastic Waist Pants Suits",
+    "price": 50,
+    "aliexpressPrice": 23.88,
+    "originalPrice": 72,
+    "salePrice": 50,
+    "shippingBuffer": 5,
+    "category": "skirts",
+    "subCategory": "sets",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Black",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "White",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "Pink",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "Black",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "Burgundy",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "Coffee",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "Wine Red",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "Pink",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "light Pink",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "Orange",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "White",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      },
+      {
+        "name": "Brown",
+        "images": [
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+          "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-1.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-2.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-3.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-4.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-5.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-6.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-7.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-8.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-9.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-10.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-11.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-12.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-13.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-14.jpg",
+      "images/bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy-15.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Soft touch sleeveless silhouette",
+      "Perfect for layering under blazers",
+      "Comfortable and breathable fit",
+      "Versatile addition to your basics rotation"
+    ],
+    "materials": "100% Cotton",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256808133034096.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Camille Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
+  },
+  {
+    "id": "bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck",
+    "name": "Bornlands 2026 Spring and Summer Set Sleeveless Hanging Neck Bareback Top with Strap Lantern Pants Two Piece Set",
+    "price": 59,
+    "aliexpressPrice": 28.74,
+    "originalPrice": 84,
+    "salePrice": 59,
+    "shippingBuffer": 5,
+    "category": "skirts",
+    "subCategory": "sets",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "YELLOW",
+        "images": [
+          "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-1.jpg",
+          "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-2.jpg",
+          "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-3.jpg",
+          "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-4.jpg",
+          "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-5.jpg",
+          "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-1.jpg",
+      "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-2.jpg",
+      "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-3.jpg",
+      "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-4.jpg",
+      "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-5.jpg",
+      "images/bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck-6.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Soft touch sleeveless silhouette",
+      "Perfect for layering under blazers",
+      "Comfortable and breathable fit",
+      "Versatile addition to your basics rotation"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811634818590.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Céline Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
+  },
+  {
+    "id": "slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su",
+    "name": "Slanted Collar Sleeveless Vest + Wide Leg Pants 2 Piece Set Summer New Women's Casual Solid Color Loose High Waist Trousers Set",
+    "price": 31,
+    "aliexpressPrice": 13.13,
+    "originalPrice": 45,
+    "salePrice": 31,
+    "shippingBuffer": 5,
+    "category": "skirts",
+    "subCategory": "sets",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "GRAY",
+        "images": [
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-1.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-2.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-3.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-4.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-5.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-6.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-7.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-8.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-9.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-10.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-11.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-12.jpg"
+        ]
+      },
+      {
+        "name": "black",
+        "images": [
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-1.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-2.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-3.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-4.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-5.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-6.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-7.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-8.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-9.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-10.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-11.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-12.jpg"
+        ]
+      },
+      {
+        "name": "green",
+        "images": [
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-1.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-2.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-3.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-4.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-5.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-6.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-7.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-8.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-9.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-10.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-11.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-12.jpg"
+        ]
+      },
+      {
+        "name": "Navy Blue",
+        "images": [
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-1.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-2.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-3.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-4.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-5.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-6.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-7.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-8.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-9.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-10.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-11.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-12.jpg"
+        ]
+      },
+      {
+        "name": "Light  Blue",
+        "images": [
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-1.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-2.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-3.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-4.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-5.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-6.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-7.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-8.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-9.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-10.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-11.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-12.jpg"
+        ]
+      },
+      {
+        "name": "Light Brown",
+        "images": [
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-1.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-2.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-3.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-4.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-5.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-6.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-7.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-8.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-9.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-10.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-11.jpg",
+          "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-12.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-1.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-2.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-3.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-4.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-5.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-6.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-7.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-8.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-9.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-10.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-11.jpg",
+      "images/slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su-12.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811963689833.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Margot Set",
+    "secondaryCategories": [
+      "tops",
+      "pants"
+    ]
+  },
+  {
+    "id": "2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai",
+    "name": "2026 New Plaid Print Bikini Sets Swimsuit For Women High Waist Swimwear Two Pieces Bathing Suits Summer Beachwear Swimming Suit",
+    "price": 33,
+    "aliexpressPrice": 13.8,
+    "originalPrice": 47,
+    "salePrice": 33,
+    "shippingBuffer": 5,
+    "category": "swimwear",
+    "subCategory": "swimwear",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "black",
+        "images": [
+          "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-1.jpg",
+          "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-2.jpg",
+          "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-3.jpg",
+          "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-4.jpg",
+          "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-5.jpg",
+          "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-1.jpg",
+      "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-2.jpg",
+      "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-3.jpg",
+      "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-4.jpg",
+      "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-5.jpg",
+      "images/2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai-6.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812309119001.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Margot Swimsuit"
+  },
+  {
+    "id": "women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai",
+    "name": "Women 70*70cm Square Silk Scarf/scarves Luxury Wrap 2026 Hair Tie Band Bag Warp Soft Neckerchief Hijab Headscarf Female Foulard",
+    "price": 11,
+    "aliexpressPrice": 0.99,
+    "originalPrice": 15,
+    "salePrice": 11,
+    "shippingBuffer": 5,
+    "category": "accessories",
+    "subCategory": "scarves",
+    "isClothing": false,
+    "colours": [
+      {
+        "name": "JNC1324-01a",
+        "images": [
+          "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-1.jpg",
+          "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-2.jpg",
+          "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-3.jpg",
+          "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-4.jpg",
+          "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-5.jpg",
+          "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [],
+    "stock": {},
+    "images": [
+      "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-1.jpg",
+      "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-2.jpg",
+      "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-3.jpg",
+      "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-4.jpg",
+      "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-5.jpg",
+      "images/women-70-70cm-square-silk-scarf-scarves-luxury-wrap-2026-hai-6.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811817587569.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Colette Scarf"
+  },
+  {
+    "id": "luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k",
+    "name": "Luxury Paisley Silk Satin Head Scarf For Women Plaid Print Kerchief Neck Scarfs Square Shawls and Wrpas Scarves For Ladies 70cm",
+    "price": 11,
+    "aliexpressPrice": 0.99,
+    "originalPrice": 15,
+    "salePrice": 11,
+    "shippingBuffer": 5,
+    "category": "accessories",
+    "subCategory": "scarves",
+    "isClothing": false,
+    "colours": [
+      {
+        "name": "JNC022-04",
+        "images": [
+          "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-1.jpg",
+          "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-2.jpg",
+          "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-3.jpg",
+          "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-4.jpg",
+          "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-5.jpg",
+          "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [],
+    "stock": {},
+    "images": [
+      "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-1.jpg",
+      "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-2.jpg",
+      "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-3.jpg",
+      "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-4.jpg",
+      "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-5.jpg",
+      "images/luxury-paisley-silk-satin-head-scarf-for-women-plaid-print-k-6.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811817531443.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Anaïs Scarf"
+  },
+  {
+    "id": "2026-new-floral-print-square-scarf-women-hair-neckerchief-tw",
+    "name": "2026 New Floral Print Square Scarf Women Hair Neckerchief Twill Satin 90cm Shawl Wraps Bandanda Hijab Foulard Head Band Echarpe",
+    "price": 18,
+    "aliexpressPrice": 5.26,
+    "originalPrice": 26,
+    "salePrice": 18,
+    "shippingBuffer": 5,
+    "category": "accessories",
+    "subCategory": "scarves",
+    "isClothing": false,
+    "colours": [
+      {
+        "name": "3",
+        "images": [
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-1.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-2.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-3.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-4.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-5.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-6.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-7.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-8.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-9.jpg"
+        ]
+      },
+      {
+        "name": "1",
+        "images": [
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-1.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-2.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-3.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-4.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-5.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-6.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-7.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-8.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-9.jpg"
+        ]
+      },
+      {
+        "name": "2",
+        "images": [
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-1.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-2.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-3.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-4.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-5.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-6.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-7.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-8.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-9.jpg"
+        ]
+      },
+      {
+        "name": "4",
+        "images": [
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-1.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-2.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-3.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-4.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-5.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-6.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-7.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-8.jpg",
+          "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-9.jpg"
+        ]
+      }
+    ],
+    "sizes": [],
+    "stock": {},
+    "images": [
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-1.jpg",
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-2.jpg",
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-3.jpg",
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-4.jpg",
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-5.jpg",
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-6.jpg",
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-7.jpg",
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-8.jpg",
+      "images/2026-new-floral-print-square-scarf-women-hair-neckerchief-tw-9.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812215642702.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Vivienne Scarf"
+  },
+  {
+    "id": "90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2",
+    "name": "90cm New Silk Shawl Square Scarf For Women Print Headband Foulard Satin Hijab Hair Bands Neckerchief Female Head Wraps Bandana",
+    "price": 15,
+    "aliexpressPrice": 3.29,
+    "originalPrice": 21,
+    "salePrice": 15,
+    "shippingBuffer": 5,
+    "category": "accessories",
+    "subCategory": "scarves",
+    "isClothing": false,
+    "colours": [
+      {
+        "name": "JSC737-02",
+        "images": [
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-1.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-2.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-3.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-4.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-5.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-6.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [],
+    "stock": {},
+    "images": [
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-1.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-2.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-3.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-4.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-5.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-6.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2-7.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812359629962.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Sylvie Scarf"
+  },
+  {
+    "id": "new-design-fashion-square-70cm-silk-scarf-women-hairband-pri",
+    "name": "New Design Fashion Square 70cm Silk Scarf Women Hairband Printed Small Satin Shawls Foulard Neckerchief Female Headbands Bandana",
+    "price": 14,
+    "aliexpressPrice": 2.82,
+    "originalPrice": 20,
+    "salePrice": 14,
+    "shippingBuffer": 5,
+    "category": "accessories",
+    "subCategory": "scarves",
+    "isClothing": false,
+    "colours": [
+      {
+        "name": "JNC1860-03",
+        "images": [
+          "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-1.jpg",
+          "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-2.jpg",
+          "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-3.jpg",
+          "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-4.jpg",
+          "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-5.jpg",
+          "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-6.jpg",
+          "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [],
+    "stock": {},
+    "images": [
+      "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-1.jpg",
+      "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-2.jpg",
+      "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-3.jpg",
+      "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-4.jpg",
+      "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-5.jpg",
+      "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-6.jpg",
+      "images/new-design-fashion-square-70cm-silk-scarf-women-hairband-pri-7.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812218952087.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Odette Scarf"
+  },
+  {
+    "id": "2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc",
+    "name": "2026 New Square Scarf For Women Elegant Ladies Hijab Neckerchief Floral Print Shawl Soft Stain Imitation Silk Bandana Bag Ribbon",
+    "price": 15,
+    "aliexpressPrice": 3.88,
+    "originalPrice": 22,
+    "salePrice": 15,
+    "shippingBuffer": 5,
+    "category": "accessories",
+    "subCategory": "scarves",
+    "isClothing": false,
+    "colours": [
+      {
+        "name": "1",
+        "images": [
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-1.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-2.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-3.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-4.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-5.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-6.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-7.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-8.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-9.jpg"
+        ]
+      },
+      {
+        "name": "4",
+        "images": [
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-1.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-2.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-3.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-4.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-5.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-6.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-7.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-8.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-9.jpg"
+        ]
+      },
+      {
+        "name": "2",
+        "images": [
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-1.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-2.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-3.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-4.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-5.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-6.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-7.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-8.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-9.jpg"
+        ]
+      },
+      {
+        "name": "3",
+        "images": [
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-1.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-2.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-3.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-4.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-5.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-6.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-7.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-8.jpg",
+          "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-9.jpg"
+        ]
+      }
+    ],
+    "sizes": [],
+    "stock": {},
+    "images": [
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-1.jpg",
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-2.jpg",
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-3.jpg",
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-4.jpg",
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-5.jpg",
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-6.jpg",
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-7.jpg",
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-8.jpg",
+      "images/2026-new-square-scarf-for-women-elegant-ladies-hijab-neckerc-9.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812182624757.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Fleur Scarf"
+  },
+  {
+    "id": "new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba",
+    "name": "New Luxury Printing Silk Square Scarf Women Neck Hair Tie Band Beach Hijab Kerchief Head Headbands Bandana Female Foulard 70cm",
+    "price": 14,
+    "aliexpressPrice": 2.86,
+    "originalPrice": 20,
+    "salePrice": 14,
+    "shippingBuffer": 5,
+    "category": "accessories",
+    "subCategory": "scarves",
+    "isClothing": false,
+    "colours": [
+      {
+        "name": "JNC706-04",
+        "images": [
+          "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-1.jpg",
+          "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-2.jpg",
+          "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-3.jpg",
+          "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-4.jpg",
+          "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-5.jpg",
+          "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-6.jpg"
+        ]
+      }
+    ],
+    "sizes": [],
+    "stock": {},
+    "images": [
+      "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-1.jpg",
+      "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-2.jpg",
+      "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-3.jpg",
+      "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-4.jpg",
+      "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-5.jpg",
+      "images/new-luxury-printing-silk-square-scarf-women-neck-hair-tie-ba-6.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811796764007.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Amélie Scarf"
+  },
+  {
+    "id": "90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo",
+    "name": "90cm New Silk Shawl Square Scarf For Women Print Headband Foulard Satin Hijab Hair Bands Neckerchief Female Head Wraps Bandana",
+    "price": 14,
+    "aliexpressPrice": 3.07,
+    "originalPrice": 20,
+    "salePrice": 14,
+    "shippingBuffer": 5,
+    "category": "accessories",
+    "subCategory": "scarves",
+    "isClothing": false,
+    "colours": [
+      {
+        "name": "JSC750-01",
+        "images": [
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-1.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-3.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-4.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-5.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-6.jpg",
+          "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-7.jpg"
+        ]
+      }
+    ],
+    "sizes": [],
+    "stock": {},
+    "images": [
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-1.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-2.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-3.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-4.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-5.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-6.jpg",
+      "images/90cm-new-silk-shawl-square-scarf-for-women-print-headband-fo-7.jpg"
+    ],
+    "caption": "Embrace effortless elegance with this linen-blend mini dress, featuring a daring backless design and a clean, sleeveless silhouette. Ideal for warm afternoons along the Seine, it transitions beautifully from casual strolls to sunset apéritifs.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256812338040428.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Chloé Scarf"
   }
 ]
