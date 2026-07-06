@@ -233,8 +233,8 @@
     "name": "Amara Earrings",
     "price": 38,
     "originalPrice": null,
-    "category": "jewelry",
-    "subCategory": "earrings",
+    "category": "accessories",
+    "subCategory": "jewelry",
     "isClothing": false,
     "colours": [
       "Gold"
@@ -3857,7 +3857,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Valentine Dress"
+    "displayName": "Valentine Dress II"
   },
   {
     "id": "hepburn-style-summer-straw-hat-french-elegant-ladies-seaside",
@@ -5524,7 +5524,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Elise Dress"
+    "displayName": "Elise Dress II"
   },
   {
     "id": "s-xl-2025-v-neck-hollow-out-crochet-knitted-tunic-beach-cove",
@@ -5846,7 +5846,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Céline Top"
+    "displayName": "Céline Top II"
   },
   {
     "id": "tornova-2025-polka-dot-knitted-maxi-dress-female-sleeveless-",
@@ -6195,7 +6195,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Sylvie Dress"
+    "displayName": "Sylvie Dress II"
   },
   {
     "id": "y2k-camisole-dress-women-cotton-linen-casual-vacation-cute-s",
@@ -6302,7 +6302,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Odette Dress"
+    "displayName": "Odette Dress II"
   },
   {
     "id": "yenkye-2025-women-floral-print-fishbone-waist-spaghetti-stra",
@@ -6514,7 +6514,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Amélie Dress"
+    "displayName": "Amélie Dress II"
   },
   {
     "id": "bohemian-puff-sleeve-maternity-dress-women-square-neck-a-lin",
@@ -6627,7 +6627,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Chloé Dress"
+    "displayName": "Chloé Dress II"
   },
   {
     "id": "fashion-sleeveless-mesh-vest-sweet-splicing-fake-two-piece-s",
@@ -6785,7 +6785,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Manon Dress"
+    "displayName": "Manon Dress II"
   },
   {
     "id": "women-s-summer-slip-dress-dot-print-sleeveless-spaghetti-str",
@@ -6882,7 +6882,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Aurore Dress"
+    "displayName": "Aurore Dress II"
   },
   {
     "id": "women-cami-dress-stripe-print-spaghetti-straps-sleeveless-fl",
@@ -6947,7 +6947,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Simone Dress"
+    "displayName": "Simone Dress II"
   },
   {
     "id": "2026-summer-new-halter-neck-strap-cake-dress-french-retro-ba",
@@ -7374,7 +7374,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Mathilde Dress"
+    "displayName": "Mathilde Dress II"
   },
   {
     "id": "new-fashion-womens-v-neck-tank-dress-sleeveless-solid-color-",
@@ -7534,7 +7534,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Noémie Dress"
+    "displayName": "Noémie Dress II"
   },
   {
     "id": "fashionable-and-elegant-hollow-out-dress-with-round-neck-and",
@@ -7611,7 +7611,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Delphine Dress"
+    "displayName": "Delphine Dress II"
   },
   {
     "id": "sapatos-mulher-sandals-summer-womens-espadrilles-rubber-sole",
@@ -8733,7 +8733,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Rosalie Dress"
+    "displayName": "Rosalie Dress II"
   },
   {
     "id": "new-casual-loose-dress-for-women-fashion-o-neck-sleeveless-w",
@@ -8870,7 +8870,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Gabrielle Dress"
+    "displayName": "Gabrielle Dress II"
   },
   {
     "id": "off-shoulder-strapless-sexy-mini-dress-women-elegant-sleevel",
@@ -8944,7 +8944,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Isabelle Dress"
+    "displayName": "Isabelle Dress II"
   },
   {
     "id": "2025-sexy-backless-women-sling-dress-elegant-o-neck-sleevele",
@@ -9754,7 +9754,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Solange Dress"
+    "displayName": "Solange Dress II"
   },
   {
     "id": "floral-print-halter-neck-tube-top-puffy-skirt-dress-comforta",
@@ -9819,7 +9819,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Thérèse Dress"
+    "displayName": "Thérèse Dress II"
   },
   {
     "id": "jhjn-2-piece-set-handmade-crochet-knitted-suit-fashion-tasse",
@@ -12164,7 +12164,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Manon Dress"
+    "displayName": "Manon Dress III"
   },
   {
     "id": "luxury-soft-brown-cloud-bag-for-women-leather-hobos-retro-cl",
@@ -12520,7 +12520,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Juliette Dress"
+    "displayName": "Juliette Dress II"
   },
   {
     "id": "hirigin-women-s-2-piece-pajamas-set-cute-ruffle-sleeveless-l",
@@ -12930,7 +12930,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Élodie Dress"
+    "displayName": "Élodie Dress II"
   },
   {
     "id": "blifanbo-turtleneck-off-shoulder-sleeveless-thigh-split-high",
@@ -13007,7 +13007,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Sandrine Dress"
+    "displayName": "Sandrine Dress II"
   },
   {
     "id": "ticketsx-knit-backless-long-dress-women-s-sleeveless-spaghet",
@@ -13087,7 +13087,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Pauline Dress"
+    "displayName": "Pauline Dress II"
   },
   {
     "id": "backless-sexy-v-neck-bohemian-long-dresses-women-2025-holida",
@@ -13164,7 +13164,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Céleste Dress"
+    "displayName": "Céleste Dress II"
   },
   {
     "id": "sexy-women-v-neck-satin-sling-maxi-dress-chic-white-lace-pat",
@@ -14618,7 +14618,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Valentine Dress"
+    "displayName": "Valentine Dress III"
   },
   {
     "id": "sexy-hollow-out-long-sleeved-knitted-sweater-summer-beach-o-",
@@ -15263,6 +15263,6 @@
     "tags": [
       "new"
     ],
-    "displayName": "Zoé Top"
+    "displayName": "Zoé Top II"
   }
 ]

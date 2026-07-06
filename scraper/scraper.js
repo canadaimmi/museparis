@@ -36,12 +36,26 @@ const CATEGORY_KEYWORDS = [
 ];
 
 const frenchNames = [
-  "Elise", "Camille", "Céline", "Margot", "Colette", "Anaïs", "Vivienne", "Sylvie", "Odette", "Fleur", 
-  "Amélie", "Chloé", "Inès", "Manon", "Aurore", "Simone", "Juliette", "Capucine", "Mathilde", "Noémie", 
-  "Delphine", "Élodie", "Sandrine", "Pauline", "Céleste", "Adèle", "Marine", "Séraphine", "Rosalie", 
-  "Clémence", "Gabrielle", "Isabelle", "Lucille", "Madeleine", "Nicolette", "Ophélie", "Pascale", 
-  "Renée", "Solange", "Thérèse", "Valentine", "Violette", "Yvette", "Zoé", "Blanche", "Estelle", 
-  "Jacqueline", "Lisette", "Mirabelle", "Cosette"
+  "Elise", "Camille", "Céline", "Margot", "Colette", "Anaïs", "Vivienne", "Sylvie", "Odette", "Fleur",
+  "Amélie", "Chloé", "Inès", "Manon", "Aurore", "Simone", "Juliette", "Capucine", "Mathilde", "Noémie",
+  "Delphine", "Élodie", "Sandrine", "Pauline", "Céleste", "Adèle", "Marine", "Séraphine", "Rosalie",
+  "Clémence", "Gabrielle", "Isabelle", "Lucille", "Madeleine", "Nicolette", "Ophélie", "Pascale",
+  "Renée", "Solange", "Thérèse", "Valentine", "Violette", "Yvette", "Zoé", "Blanche", "Estelle",
+  "Jacqueline", "Lisette", "Mirabelle", "Cosette",
+  "Fabienne", "Geneviève", "Héloïse", "Iris", "Joséphine", "Katell", "Léonie", "Margaux", "Nadège",
+  "Solène", "Tiphaine", "Ursule", "Xavière", "Yseult", "Albane", "Bénédicte", "Diane", "Edmée",
+  "Floriane", "Gaëlle", "Honorine", "Isaure", "Jade", "Karine", "Laure", "Mélodie", "Oriane",
+  "Perrine", "Raphaëlle", "Sabine", "Véronique", "Wendeline", "Yasmine", "Zélie", "Dorothée",
+  "Fanette", "Gwenaëlle", "Harmonie", "Joëlle", "Lysiane", "Maëlis", "Nathalie", "Océane",
+  "Prudence", "Romane", "Sixtine", "Tatiana", "Victoire", "Aliénor", "Bérénice", "Domitille",
+  "Éléonore", "Flavie", "Guillemette", "Hyacinthe", "Isaline", "Justine", "Lauriane", "Maïwenn",
+  "Ninon", "Olympe", "Philomène", "Reine", "Toscane", "Alberte", "Brunelle", "Charline", "Danaé",
+  "Emmeline", "Flore", "Hermine", "Isadora", "Joanna", "Lucette", "Nelly", "Ondine", "Régine",
+  "Urbaine", "Viviane", "Ambre", "Clara", "Clémentine", "Coralie", "Hortense", "Lucie", "Léa",
+  "Mélanie", "Pénélope", "Roxane", "Sophie", "Lola", "Agathe", "Alice", "Angèle", "Axelle",
+  "Aziliz", "Bertille", "Cécile", "Christelle", "Cyrielle", "Eleonore", "Faustine", "Gwendoline",
+  "Lorraine", "Luisa", "Maëlle", "Mathis", "Mireille", "Morgane", "Noemie", "Rosanne", "Salomé",
+  "Stéphanie", "Théodora", "Wanda", "Ysabel", "Zelda"
 ];
 
 function getItemType(product) {
@@ -616,8 +630,8 @@ async function run() {
       const id = slugify(scraped.title);
       const caption = await generateCaption(scraped.title, scraped.description);
 
-      const productsCount = readProducts().length;
-      const fName = frenchNames[productsCount % frenchNames.length];
+      const existingProducts = readProducts();
+      const existingDisplayNames = new Set(existingProducts.map(p => p.displayName).filter(Boolean));
 
       const materials = extractFabric(scraped.title, scraped.materials);
       const details = generateDetails(scraped.title, category);
@@ -654,6 +668,15 @@ async function run() {
       };
 
       const type = getItemType(product);
+      const startIdx = existingProducts.length % frenchNames.length;
+      let fName = frenchNames[startIdx];
+      for (let i = 0; i < frenchNames.length; i++) {
+        const candidate = frenchNames[(startIdx + i) % frenchNames.length];
+        if (!existingDisplayNames.has(`${candidate} ${type}`)) {
+          fName = candidate;
+          break;
+        }
+      }
       product.displayName = `${fName} ${type}`;
 
       const urlMap = await downloadProductImages(product.images, id);
