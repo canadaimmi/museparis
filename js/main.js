@@ -138,7 +138,7 @@ function initNav() {
         shopDropdown.classList.remove('active');
         // Reset all expand buttons so next open starts collapsed
         shopDropdown.querySelectorAll('.nav-subgroup.open').forEach(sg => sg.classList.remove('open'));
-        shopDropdown.querySelectorAll('.nav-expand-btn.open').forEach(btn => {
+        shopDropdown.querySelectorAll('.nav-expand-trigger.open').forEach(btn => {
           btn.classList.remove('open');
           btn.setAttribute('aria-expanded', 'false');
         });
@@ -170,7 +170,7 @@ function initNav() {
   }
 
   // Expandable subcategory accordion (Dresses, Loungewear) — desktop + mobile
-  document.querySelectorAll('.nav-expand-btn').forEach(btn => {
+  document.querySelectorAll('.nav-expand-trigger').forEach(btn => {
     btn.addEventListener('click', function(e) {
       e.preventDefault();
       e.stopPropagation();

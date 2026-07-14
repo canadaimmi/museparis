@@ -221,29 +221,32 @@ img { display: block; max-width: 100%; }
 .nav-expandable {
   margin-bottom: 12px;
 }
-.nav-expandable-header {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-.nav-expandable-header > a {
-  margin-bottom: 0 !important;
-  flex: 1;
-}
-.nav-expand-btn {
+/* The toggle trigger looks exactly like a regular nav link */
+.nav-expand-trigger {
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--grey);
-  font-size: 11px;
-  padding: 0;
-  line-height: 1;
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--charcoal);
+  text-align: left;
+  white-space: nowrap;
+}
+.nav-caret {
+  font-size: 10px;
+  color: var(--grey);
+  margin-left: 6px;
+  display: inline-block;
   transition: transform 0.2s ease;
   transform-origin: center;
+  line-height: 1;
 }
-.nav-expand-btn.open {
+.nav-expand-trigger.open .nav-caret {
   transform: rotate(90deg);
 }
 .nav-subgroup {
@@ -262,14 +265,24 @@ img { display: block; max-width: 100%; }
   margin-bottom: 7px;
   letter-spacing: 0.02em;
 }
+.dropdown-col .nav-subgroup a:first-child {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+/* Mobile */
 .mobile-accordion-section .nav-expandable {
   margin-bottom: 0;
 }
-.mobile-accordion-section .nav-expandable-header {
-  border-bottom: none;
+.mobile-accordion-section .nav-expand-trigger {
+  font-size: 15px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--charcoal);
+  padding: 8px 0;
 }
-.mobile-accordion-section .nav-expand-btn {
-  font-size: 13px;
+.mobile-accordion-section .nav-caret {
+  font-size: 12px;
   color: var(--charcoal);
 }
 .mobile-accordion-section .nav-subgroup {
@@ -284,6 +297,10 @@ img { display: block; max-width: 100%; }
   text-transform: none !important;
   font-weight: 400 !important;
   letter-spacing: 0.02em !important;
+}
+.mobile-accordion-section .nav-subgroup a:first-child {
+  font-weight: 600 !important;
+  color: var(--charcoal) !important;
 }
 
 /* Mobile nav overlay */
