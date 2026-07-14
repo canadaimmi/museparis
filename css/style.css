@@ -228,8 +228,6 @@ img { display: block; max-width: 100%; }
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
   padding: 0;
   font-family: inherit;
   font-size: 13px;
@@ -239,7 +237,7 @@ img { display: block; max-width: 100%; }
 }
 .nav-caret {
   font-size: 10px;
-  color: var(--grey);
+  color: inherit;
   margin-left: 6px;
   display: inline-block;
   transition: transform 0.2s ease;
@@ -275,6 +273,10 @@ img { display: block; max-width: 100%; }
   margin-bottom: 0;
 }
 .mobile-accordion-section .nav-expand-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   font-size: 15px !important;
   text-transform: uppercase;
   font-weight: 500;
