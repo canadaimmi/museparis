@@ -136,6 +136,12 @@ function initNav() {
       clearTimeout(timeoutId);
       timeoutId = setTimeout(() => {
         shopDropdown.classList.remove('active');
+        // Reset all expand buttons so next open starts collapsed
+        shopDropdown.querySelectorAll('.nav-subgroup.open').forEach(sg => sg.classList.remove('open'));
+        shopDropdown.querySelectorAll('.nav-expand-btn.open').forEach(btn => {
+          btn.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        });
       }, 250);
     };
     shopTrigger.addEventListener('mouseenter', showMenu);
@@ -162,6 +168,18 @@ function initNav() {
       mobileShopBtn.textContent = mobileShopPanel.classList.contains('open') ? 'Shop ▴' : 'Shop ▾';
     });
   }
+
+  // Expandable subcategory accordion (Dresses, Loungewear) — desktop + mobile
+  document.querySelectorAll('.nav-expand-btn').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const subgroup = this.closest('.nav-expandable').querySelector('.nav-subgroup');
+      const isOpen = subgroup.classList.toggle('open');
+      this.classList.toggle('open', isOpen);
+      this.setAttribute('aria-expanded', String(isOpen));
+    });
+  });
 
   const cartBtn = document.getElementById('cartBtn');
   const cartSidebar = document.getElementById('cartSidebar');

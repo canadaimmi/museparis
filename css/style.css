@@ -217,12 +217,44 @@ img { display: block; max-width: 100%; }
   color: var(--charcoal);
 }
 
-/* Nested subcategory groups in nav (Dresses → Mini/Midi/Maxi, Loungewear → Pyjama Sets) */
+/* Expandable subcategory accordion in nav (Dresses, Loungewear) */
+.nav-expandable {
+  margin-bottom: 12px;
+}
+.nav-expandable-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-expandable-header > a {
+  margin-bottom: 0 !important;
+  flex: 1;
+}
+.nav-expand-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--grey);
+  font-size: 11px;
+  padding: 0;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+  transform-origin: center;
+}
+.nav-expand-btn.open {
+  transform: rotate(90deg);
+}
 .nav-subgroup {
+  display: none;
   padding-left: 12px;
   border-left: 1px solid var(--line);
-  margin-top: -4px;
-  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.nav-subgroup.open {
+  display: block;
 }
 .dropdown-col .nav-subgroup a {
   font-size: 11px;
@@ -230,9 +262,20 @@ img { display: block; max-width: 100%; }
   margin-bottom: 7px;
   letter-spacing: 0.02em;
 }
+.mobile-accordion-section .nav-expandable {
+  margin-bottom: 0;
+}
+.mobile-accordion-section .nav-expandable-header {
+  border-bottom: none;
+}
+.mobile-accordion-section .nav-expand-btn {
+  font-size: 13px;
+  color: var(--charcoal);
+}
 .mobile-accordion-section .nav-subgroup {
-  margin-top: -2px;
-  margin-bottom: 6px;
+  margin-top: 0;
+  margin-bottom: 4px;
+  padding-left: 10px;
 }
 .mobile-accordion-section .nav-subgroup a {
   font-size: 12px !important;
