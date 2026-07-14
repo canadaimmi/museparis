@@ -217,6 +217,32 @@ img { display: block; max-width: 100%; }
   color: var(--charcoal);
 }
 
+/* Nested subcategory groups in nav (Dresses → Mini/Midi/Maxi, Loungewear → Pyjama Sets) */
+.nav-subgroup {
+  padding-left: 12px;
+  border-left: 1px solid var(--line);
+  margin-top: -4px;
+  margin-bottom: 10px;
+}
+.dropdown-col .nav-subgroup a {
+  font-size: 11px;
+  color: var(--grey);
+  margin-bottom: 7px;
+  letter-spacing: 0.02em;
+}
+.mobile-accordion-section .nav-subgroup {
+  margin-top: -2px;
+  margin-bottom: 6px;
+}
+.mobile-accordion-section .nav-subgroup a {
+  font-size: 12px !important;
+  color: var(--grey) !important;
+  padding: 4px 0 !important;
+  text-transform: none !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
+}
+
 /* Mobile nav overlay */
 .mobile-nav-overlay {
   position: fixed;
