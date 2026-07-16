@@ -5220,42 +5220,6 @@
     "displayName": "Lisette Dress"
   },
   {
-    "id": "you-may-also-like",
-    "name": "You may also like",
-    "price": 9,
-    "aliexpressPrice": 0,
-    "originalPrice": 13,
-    "salePrice": 9,
-    "shippingBuffer": 5,
-    "category": "accessories",
-    "subCategory": "accessories",
-    "isClothing": false,
-    "colours": [
-      {
-        "name": "Default",
-        "images": []
-      }
-    ],
-    "sizes": [],
-    "stock": {},
-    "images": [],
-    "caption": "A curated piece from the Muse Paris collection — thoughtfully selected for its quiet elegance and everyday versatility. Explore the full range to find what speaks to you.",
-    "description": [
-      "Crafted from premium fabrics",
-      "Elegant design suitable for multiple occasions",
-      "Carefully finished seams and edges",
-      "Designed in a classic, versatile style"
-    ],
-    "materials": "Cotton, Linen",
-    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
-    "origin": "Ships from supplier",
-    "aliexpressUrl": "https://www.aliexpress.us/item/3256811788554558.html",
-    "tags": [
-      "new"
-    ],
-    "displayName": "Mirabelle Accessory"
-  },
-  {
     "id": "new-fake-two-piece-sports-dress-women-s-anti-glare-yoga-jump",
     "name": "New Fake Two-piece Sports Dress Women's Anti Glare Yoga Jumpsuit Outdoor Running Fitness Tennis Skirt Workout Rompers Yoga Set",
     "price": 69,
