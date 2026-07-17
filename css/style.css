@@ -363,7 +363,8 @@ img { display: block; max-width: 100%; }
 /* ============ HERO ============ */
 .hero {
   position: relative;
-  height: 100vh;
+  height: 110vh;
+  min-height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
