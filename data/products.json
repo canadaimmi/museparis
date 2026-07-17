@@ -2081,8 +2081,8 @@
     "originalPrice": 78,
     "salePrice": 55,
     "shippingBuffer": 5,
-    "category": "loungewear",
-    "subCategory": "pyjama-sets",
+    "category": "sets",
+    "subCategory": "sets",
     "isClothing": true,
     "colours": [
       {
@@ -2132,7 +2132,7 @@
     "tags": [
       "new"
     ],
-    "displayName": "Thais Pajama Set",
+    "displayName": "Thais Set",
     "fabricContent": "100% Cotton",
     "fabricEstimated": false,
     "details": [
@@ -2142,7 +2142,8 @@
       "Lightweight, breathable cotton fabric for home loungewear",
       "Chic, feminine simple design for relaxed evenings"
     ],
-    "careInstructions": "Machine wash cold on gentle cycle. Tumble dry low or line dry."
+    "careInstructions": "Machine wash cold on gentle cycle. Tumble dry low or line dry.",
+    "secondaryCategories": []
   },
   {
     "id": "valentine-dress",
@@ -11351,8 +11352,8 @@
     "originalPrice": 42,
     "salePrice": 29,
     "shippingBuffer": 5,
-    "category": "loungewear",
-    "subCategory": "pyjama-sets",
+    "category": "sets",
+    "subCategory": "sets",
     "isClothing": true,
     "colours": [
       {
@@ -11436,7 +11437,8 @@
     "tags": [
       "new"
     ],
-    "displayName": "Capucine Pajama Set"
+    "displayName": "Capucine Set",
+    "secondaryCategories": []
   },
   {
     "id": "womens-summer-solid-color-2-pieces-set-ruffle-sleeveless-sli",
@@ -11446,8 +11448,8 @@
     "originalPrice": 39,
     "salePrice": 27,
     "shippingBuffer": 5,
-    "category": "loungewear",
-    "subCategory": "pyjama-sets",
+    "category": "sets",
+    "subCategory": "sets",
     "isClothing": true,
     "colours": [
       {
@@ -11560,7 +11562,8 @@
     "tags": [
       "new"
     ],
-    "displayName": "Mathilde Pajama Set"
+    "displayName": "Mathilde Set",
+    "secondaryCategories": []
   },
   {
     "id": "summer-vacation-loose-matching-outfits-summer-striped-sleeve",
@@ -11570,8 +11573,8 @@
     "originalPrice": 39,
     "salePrice": 27,
     "shippingBuffer": 5,
-    "category": "loungewear",
-    "subCategory": "pyjama-sets",
+    "category": "sets",
+    "subCategory": "sets",
     "isClothing": true,
     "colours": [
       {
@@ -11636,7 +11639,8 @@
     "tags": [
       "new"
     ],
-    "displayName": "Noémie Pajama Set"
+    "displayName": "Noémie Set",
+    "secondaryCategories": []
   },
   {
     "id": "soft-leather-straw-handbag-comfortable-to-for-travelling-pra",
