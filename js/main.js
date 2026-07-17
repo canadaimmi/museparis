@@ -284,6 +284,14 @@ function initCategoryPage() {
   const cat = params.get('cat') || 'new-in';
   const subcat = params.get('subcat');
 
+  const categoryHeroes = {
+    'knitwear': 'images/bornladies-elegant-sweater-women-summer-autumn-casual-fashio-1.jpg'
+  };
+  const heroEl = document.getElementById('categoryHero');
+  if (heroEl && categoryHeroes[cat]) {
+    heroEl.style.backgroundImage = `url('${categoryHeroes[cat]}')`;
+  }
+
   const displayTitle = subcat ? `${categoryLabel(cat)} — ${subcat.charAt(0).toUpperCase() + subcat.slice(1).replace(/-/g, ' ')}` : categoryLabel(cat);
   document.getElementById('catLabel').textContent = displayTitle;
   document.getElementById('categoryTitle').textContent = displayTitle;
