@@ -290,6 +290,7 @@ function initCategoryPage() {
   const heroEl = document.getElementById('categoryHero');
   if (heroEl && categoryHeroes[cat]) {
     heroEl.style.backgroundImage = `url('${categoryHeroes[cat]}')`;
+    heroEl.classList.add('active');
   }
 
   const displayTitle = subcat ? `${categoryLabel(cat)} — ${subcat.charAt(0).toUpperCase() + subcat.slice(1).replace(/-/g, ' ')}` : categoryLabel(cat);
