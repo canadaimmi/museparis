@@ -9500,7 +9500,7 @@
     "originalPrice": 88,
     "salePrice": 62,
     "shippingBuffer": 5,
-    "category": "skirts",
+    "category": "pants",
     "subCategory": "sets",
     "isClothing": true,
     "colours": [
@@ -9564,10 +9564,7 @@
       "new"
     ],
     "displayName": "Lisette Set",
-    "secondaryCategories": [
-      "tops",
-      "pants"
-    ]
+    "secondaryCategories": []
   },
   {
     "id": "2025-new-women-linen-cotton-chic-vest-pants-suit-two-piece-s",
@@ -9577,7 +9574,7 @@
     "originalPrice": 76,
     "salePrice": 53,
     "shippingBuffer": 5,
-    "category": "skirts",
+    "category": "pants",
     "subCategory": "sets",
     "isClothing": true,
     "colours": [
@@ -9678,10 +9675,7 @@
       "new"
     ],
     "displayName": "Elise Set",
-    "secondaryCategories": [
-      "tops",
-      "pants"
-    ]
+    "secondaryCategories": []
   },
   {
     "id": "bornladies-cotton-casual-pants-sets-women-s-solid-color-cozy",
@@ -9691,7 +9685,7 @@
     "originalPrice": 72,
     "salePrice": 50,
     "shippingBuffer": 5,
-    "category": "skirts",
+    "category": "pants",
     "subCategory": "sets",
     "isClothing": true,
     "colours": [
@@ -9982,10 +9976,7 @@
       "new"
     ],
     "displayName": "Camille Set",
-    "secondaryCategories": [
-      "tops",
-      "pants"
-    ]
+    "secondaryCategories": []
   },
   {
     "id": "bornlands-2026-spring-and-summer-set-sleeveless-hanging-neck",
@@ -9995,7 +9986,7 @@
     "originalPrice": 84,
     "salePrice": 59,
     "shippingBuffer": 5,
-    "category": "skirts",
+    "category": "pants",
     "subCategory": "sets",
     "isClothing": true,
     "colours": [
@@ -10048,10 +10039,7 @@
       "new"
     ],
     "displayName": "Céline Set",
-    "secondaryCategories": [
-      "tops",
-      "pants"
-    ]
+    "secondaryCategories": []
   },
   {
     "id": "slanted-collar-sleeveless-vest-wide-leg-pants-2-piece-set-su",
@@ -10061,7 +10049,7 @@
     "originalPrice": 45,
     "salePrice": 31,
     "shippingBuffer": 5,
-    "category": "skirts",
+    "category": "pants",
     "subCategory": "sets",
     "isClothing": true,
     "colours": [
@@ -10211,10 +10199,7 @@
       "new"
     ],
     "displayName": "Margot Set",
-    "secondaryCategories": [
-      "tops",
-      "pants"
-    ]
+    "secondaryCategories": []
   },
   {
     "id": "2026-new-plaid-print-bikini-sets-swimsuit-for-women-high-wai",
@@ -10994,7 +10979,7 @@
     "originalPrice": 51,
     "salePrice": 36,
     "shippingBuffer": 5,
-    "category": "skirts",
+    "category": "pants",
     "subCategory": "sets",
     "isClothing": true,
     "colours": [
@@ -11069,10 +11054,7 @@
       "new"
     ],
     "displayName": "Simone Set",
-    "secondaryCategories": [
-      "tops",
-      "pants"
-    ]
+    "secondaryCategories": []
   },
   {
     "id": "bornladies-elegant-sweater-women-summer-autumn-casual-fashio",
