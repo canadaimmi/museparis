@@ -284,10 +284,6 @@ function initCategoryPage() {
   const cat = params.get('cat') || 'new-in';
   const subcat = params.get('subcat');
 
-  const categoryFeaturedPhotos = {
-    'knitwear': 'images/bornladies-elegant-sweater-women-summer-autumn-casual-fashio-1.jpg'
-  };
-
   const displayTitle = subcat ? `${categoryLabel(cat)} — ${subcat.charAt(0).toUpperCase() + subcat.slice(1).replace(/-/g, ' ')}` : categoryLabel(cat);
   document.getElementById('catLabel').textContent = displayTitle;
   document.getElementById('categoryTitle').textContent = displayTitle;
@@ -333,12 +329,7 @@ function initCategoryPage() {
       return;
     }
 
-    const featuredPhoto = categoryFeaturedPhotos[cat];
-    const featuredPhotoHTML = featuredPhoto && !subcat
-      ? `<img src="${featuredPhoto}" class="category-featured-photo" alt="${categoryLabel(cat)}">`
-      : '';
-
-    grid.innerHTML = featuredPhotoHTML + rows.map(row => `
+    grid.innerHTML = rows.map(row => `
       <div class="product-row cols-${row.cols}">
         ${row.items.map(p => productCardHTML(p)).join('')}
       </div>

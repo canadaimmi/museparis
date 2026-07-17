@@ -490,15 +490,6 @@ img { display: block; max-width: 100%; }
 .sub-nav a.amber { color: var(--amber); font-style: italic; }
 .sub-nav .filters-btn { margin-left: auto; font-size: 12px; text-transform: uppercase; background: none; border: none; display: flex; gap: 6px; align-items: center; }
 
-/* ============ CATEGORY FEATURED PHOTO ============ */
-.category-featured-photo {
-  width: 100%;
-  max-height: 80vh;
-  object-fit: cover;
-  object-position: center top;
-  display: block;
-}
-
 /* ============ PAGE TITLE ============ */
 .page-title {
   text-align: center;
