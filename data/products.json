@@ -11217,8 +11217,8 @@
     "originalPrice": 49,
     "salePrice": 34,
     "shippingBuffer": 5,
-    "category": "tops",
-    "subCategory": "tops",
+    "category": "knitwear",
+    "subCategory": "knitwear",
     "isClothing": true,
     "colours": [
       {
@@ -13457,8 +13457,8 @@
     "originalPrice": 60,
     "salePrice": 42,
     "shippingBuffer": 5,
-    "category": "tops",
-    "subCategory": "tops",
+    "category": "knitwear",
+    "subCategory": "knitwear",
     "isClothing": true,
     "colours": [
       {
