@@ -5071,6 +5071,64 @@
     "displayName": "Elise Dress II"
   },
   {
+    "id": "sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces",
+    "name": "Sexy Color Block Bikini Set Women's Swimsuit Separate Pieces Contrast Color Swimwear Trendy Female Beach Fashion",
+    "price": 49,
+    "aliexpressPrice": 22.86,
+    "originalPrice": 70,
+    "salePrice": 49,
+    "shippingBuffer": 5,
+    "category": "swimwear",
+    "subCategory": "swimwear",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Default",
+        "images": [
+          "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-1.jpg",
+          "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-2.jpg",
+          "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-3.jpg",
+          "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-4.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-1.jpg",
+      "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-2.jpg",
+      "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-3.jpg",
+      "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-4.jpg"
+    ],
+    "caption": "A colour-blocked bikini in a contrast-panel cut — the swimwear that makes a statement before you reach the water. Two tones, one conviction.",
+    "description": [
+      "Crafted from premium fabrics",
+      "Elegant design suitable for multiple occasions",
+      "Carefully finished seams and edges",
+      "Designed in a classic, versatile style"
+    ],
+    "materials": "Cotton, Linen",
+    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256811723836626.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Théodora Swimsuit"
+  },
+  {
     "id": "s-xl-2025-v-neck-hollow-out-crochet-knitted-tunic-beach-cove",
     "name": "S - XL 2025 V Neck Hollow Out Crochet Knitted Tunic Beach Cover Up Long Cover-ups Beach Dress Beach Wear Beachwear Female Women",
     "price": 60,
@@ -17264,64 +17322,6 @@
       "new"
     ],
     "displayName": "Salomé Swimsuit"
-  },
-  {
-    "id": "sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces",
-    "name": "Sexy Color Block Bikini Set Women's Swimsuit Separate Pieces Contrast Color Swimwear Trendy Female Beach Fashion",
-    "price": 49,
-    "aliexpressPrice": 22.86,
-    "originalPrice": 70,
-    "salePrice": 49,
-    "shippingBuffer": 5,
-    "category": "swimwear",
-    "subCategory": "swimwear",
-    "isClothing": true,
-    "colours": [
-      {
-        "name": "Default",
-        "images": [
-          "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-1.jpg",
-          "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-2.jpg",
-          "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-3.jpg",
-          "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-4.jpg"
-        ]
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "stock": {
-      "XS": 5,
-      "S": 5,
-      "M": 5,
-      "L": 5,
-      "XL": 5
-    },
-    "images": [
-      "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-1.jpg",
-      "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-2.jpg",
-      "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-3.jpg",
-      "images/sexy-color-block-bikini-set-women-s-swimsuit-separate-pieces-4.jpg"
-    ],
-    "caption": "A colour-blocked bikini in a contrast-panel cut — the swimwear that makes a statement before you reach the water. Two tones, one conviction.",
-    "description": [
-      "Crafted from premium fabrics",
-      "Elegant design suitable for multiple occasions",
-      "Carefully finished seams and edges",
-      "Designed in a classic, versatile style"
-    ],
-    "materials": "Cotton, Linen",
-    "care": "Hand wash or gentle machine wash cold, line dry in shade, warm iron if needed.",
-    "origin": "Ships from supplier",
-    "aliexpressUrl": "https://www.aliexpress.us/item/3256811723836626.html",
-    "tags": [
-      "new"
-    ],
-    "displayName": "Théodora Swimsuit"
   },
   {
     "id": "cikini-women-s-split-swimming-suit-irregular-striped-lotus-l",
