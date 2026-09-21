@@ -17786,5 +17786,65 @@
       "new"
     ],
     "displayName": "Cosette Jumpsuit"
+  },
+  {
+    "id": "elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b",
+    "name": "Elegant Off White Hollow Out Knit Cardigan Women Crew Neck Button Up Soft Fuzzy Long Sleeve Daily Sweater",
+    "price": 44,
+    "aliexpressPrice": 20.33,
+    "originalPrice": 63,
+    "salePrice": 44,
+    "shippingBuffer": 5,
+    "category": "knitwear",
+    "subCategory": "knitwear",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "260565",
+        "images": [
+          "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-1.jpg",
+          "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-2.jpg",
+          "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-3.jpg",
+          "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-4.jpg",
+          "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-5.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-1.jpg",
+      "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-2.jpg",
+      "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-3.jpg",
+      "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-4.jpg",
+      "images/elegant-off-white-hollow-out-knit-cardigan-women-crew-neck-b-5.jpg"
+    ],
+    "caption": "Soft as a cloud and effortlessly chic, this hollow-out knit cardigan drapes with the easy elegance of a Left Bank Sunday. Button it over a slip dress for dinner near Saint-Germain, or wear it alone with denim for café mornings in the Marais.",
+    "description": [
+      "Soft, fuzzy hollow-out knit fabric",
+      "Button-up front with a flattering crew neckline",
+      "Long sleeves for cozy, all-day layering",
+      "Pairs beautifully over dresses, tees, or turtlenecks"
+    ],
+    "materials": "Acrylic Knit Blend",
+    "care": "Hand wash cold or dry clean, lay flat to dry, do not tumble dry, cool iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.com/item/1005012522192712.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Luisa Knit"
   }
 ]
