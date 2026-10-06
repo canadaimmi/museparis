@@ -17923,5 +17923,69 @@
       "new"
     ],
     "displayName": "Maëlle Knit"
+  },
+  {
+    "id": "original-backless-o-neck-cotton-knit-sweater-autumn-and-wint",
+    "name": "Original Backless O-neck Cotton Knit Sweater Autumn and Winter Women Simple Loose Soft Warm Elastic Daily Office Casual Sweater",
+    "price": 81,
+    "aliexpressPrice": 28.14,
+    "shippingCost": 24.44,
+    "category": "knitwear",
+    "subCategory": "knitwear",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "Default",
+        "images": [
+          "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-1.jpg",
+          "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-2.jpg",
+          "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-3.jpg",
+          "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-4.jpg",
+          "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-5.jpg",
+          "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-6.jpg",
+          "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-7.jpg",
+          "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-8.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-1.jpg",
+      "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-2.jpg",
+      "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-3.jpg",
+      "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-4.jpg",
+      "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-5.jpg",
+      "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-6.jpg",
+      "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-7.jpg",
+      "images/original-backless-o-neck-cotton-knit-sweater-autumn-and-wint-8.jpg"
+    ],
+    "caption": "A sweater with a secret: soft cotton knit at the front, a daring open back beneath your coat. Wear it loose over leggings for a quiet Sunday at the Jardin du Luxembourg, or layered under a blazer for something less expected at the office.",
+    "description": [
+      "Soft, warm cotton knit with gentle stretch",
+      "Flattering open-back detail beneath a classic O-neck",
+      "Relaxed, loose fit for easy layering",
+      "Ideal for cool autumn and winter days"
+    ],
+    "materials": "Cotton Knit",
+    "care": "Hand wash cold or gentle machine wash, lay flat to dry, cool iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.us/item/3256809150518905.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Mathis Knit"
   }
 ]
