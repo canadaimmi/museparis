@@ -17846,5 +17846,82 @@
       "new"
     ],
     "displayName": "Luisa Knit"
+  },
+  {
+    "id": "canwedance-women-winter-maxi-cardigans-single-breasted-overs",
+    "name": "Canwedance Women Winter Maxi Cardigans Single Breasted Oversized Sweaters Solid Color Large Collar Boho Long Knitwear",
+    "price": 162,
+    "aliexpressPrice": 66.68,
+    "shippingCost": 14.39,
+    "category": "knitwear",
+    "subCategory": "knitwear",
+    "isClothing": true,
+    "colours": [
+      {
+        "name": "black",
+        "images": [
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-1.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-2.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-3.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-4.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-5.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-6.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-7.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-8.jpg"
+        ]
+      },
+      {
+        "name": "GRAY",
+        "images": [
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-1.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-2.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-3.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-4.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-5.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-6.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-7.jpg",
+          "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-8.jpg"
+        ]
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 5,
+      "M": 5,
+      "L": 5,
+      "XL": 5
+    },
+    "images": [
+      "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-1.jpg",
+      "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-2.jpg",
+      "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-3.jpg",
+      "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-4.jpg",
+      "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-5.jpg",
+      "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-6.jpg",
+      "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-7.jpg",
+      "images/canwedance-women-winter-maxi-cardigans-single-breasted-overs-8.jpg"
+    ],
+    "caption": "Wrapped in generous folds and an oversized collar, this maxi cardigan is made for grey Parisian afternoons — thrown over everything, buttoned for no one. Let it trail past the knee on your walk along Canal Saint-Martin, scarf optional.",
+    "description": [
+      "Oversized, relaxed boho silhouette",
+      "Large statement collar, single-breasted front",
+      "Maxi length falls past the knee",
+      "Soft knit, perfect for layering through autumn and winter"
+    ],
+    "materials": "Acrylic Knit Blend",
+    "care": "Hand wash cold or dry clean, lay flat to dry, do not tumble dry, cool iron if needed.",
+    "origin": "Ships from supplier",
+    "aliexpressUrl": "https://www.aliexpress.com/item/1005007458928109.html",
+    "tags": [
+      "new"
+    ],
+    "displayName": "Maëlle Knit"
   }
 ]
