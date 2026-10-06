@@ -256,14 +256,9 @@ async function scrapeProduct(page, url) {
       perColourUrls.push(uniq);
     }
 
-    // If every colour swatch produced the identical image set, the click never
-    // actually swapped photos on the page — collapse to a single "Default" colour
-    // so we don't claim multiple colourways that are really the same photos.
     const allIdentical = perColourUrls.every(list => JSON.stringify(list) === JSON.stringify(perColourUrls[0]));
     if (allIdentical && colours.length > 1) {
-      console.log('All colour swatches returned identical photos — collapsing to a single colour.');
-      colours.length = 0;
-      colours.push({ name: 'Default', images: perColourUrls[0] });
+      console.log(`Note: all ${colours.length} colour swatches (${colours.map(c => c.name).join(', ')}) share the same photo set on AliExpress — keeping all colour names as selectable options, images just won't differ per colour.`);
     }
   }
 
