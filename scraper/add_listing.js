@@ -365,7 +365,8 @@ async function run() {
   const id = slugify(scraped.title);
   const aliexpressPrice = scraped.price;
   const shippingCost = parseShippingCost(scraped.shippingText);
-  const price = Math.round(aliexpressPrice * 2 + shippingCost);
+  const originalPrice = Math.round(aliexpressPrice * 2.5);
+  const salePrice = Math.round(originalPrice * 0.85);
 
   const { category, isClothing } = categorize(scraped.title);
   const subCategory = category;
@@ -376,8 +377,10 @@ async function run() {
   const product = {
     id,
     name: scraped.title,
-    price,
+    price: salePrice,
     aliexpressPrice,
+    originalPrice,
+    salePrice,
     shippingCost,
     category,
     subCategory,
@@ -410,7 +413,7 @@ async function run() {
   product.colours.forEach(col => { col.images = col.images.map(u => urlMap[u]).filter(Boolean); });
 
   appendProduct(product);
-  console.log(`\n✓ Appended "${product.displayName}" (id: ${id}, category: ${category}) — price $${price} (item $${aliexpressPrice} x2 + shipping $${shippingCost}), ${product.images.length} unique photos`);
+  console.log(`\n✓ Appended "${product.displayName}" (id: ${id}, category: ${category}) — item $${aliexpressPrice} x2.5 = $${originalPrice} crossed out, sale $${salePrice} (-15%), ${product.images.length} unique photos`);
 
   browser.disconnect();
 }
